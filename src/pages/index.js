@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import StickyHeader from '../components/StickyHeader';
 import BannerSlider from '../components/BannerSlider';
 import Service from '../components/Service';
+import AboutUs from '../components/AboutUs';
 
 // markup
 const IndexPage = () => {
@@ -13,6 +14,7 @@ const IndexPage = () => {
       <StickyHeader extraClassName='stricky-header-two' />
       <BannerSlider />
       <Service />
+      <AboutUs />
     </Layout>
   );
 };

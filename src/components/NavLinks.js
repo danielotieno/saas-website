@@ -103,11 +103,6 @@ const NavLinks = ({ extraClassName }) => {
       <li>
         <Link to='/contact'>Contact</Link>
       </li>
-      <li className='search-btn search-toggler'>
-        <span>
-          <i className='azino-icon-magnifying-glass'></i>
-        </span>
-      </li>
     </ul>
   );
 };

@@ -24,7 +24,7 @@ const SERVICE_TWO_DATA = [
   {
     extraClassName: 'background-base',
     image: image3,
-    title: 'Join our volunteers',
+    title: 'Become a volunteer',
     text: 'Let’s Join',
     link: '#',
   },
