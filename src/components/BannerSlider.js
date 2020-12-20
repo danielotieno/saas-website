@@ -44,7 +44,7 @@ const BannerSlider = () => {
                 <a
                   href='#none'
                   data-target='.donate-options'
-                  className='scroll-to-target thm-btn dynamic-radius'>
+                  className='scroll-to-target thm-btn rounded-pill'>
                   Start Donating
                 </a>
               </Col>
@@ -67,7 +67,7 @@ const BannerSlider = () => {
                 <a
                   href='#none'
                   data-target='.donate-options'
-                  className='scroll-to-target thm-btn dynamic-radius'>
+                  className='scroll-to-target thm-btn rounded-pill'>
                   Start Donating
                 </a>
               </Col>
@@ -90,7 +90,7 @@ const BannerSlider = () => {
                 <a
                   href='#none'
                   data-target='.donate-options'
-                  className='scroll-to-target thm-btn dynamic-radius'>
+                  className='scroll-to-target thm-btn rounded-pill'>
                   Start Donating
                 </a>
               </Col>

@@ -5,6 +5,7 @@ import StickyHeader from '../components/StickyHeader';
 import BannerSlider from '../components/BannerSlider';
 import Service from '../components/Service';
 import AboutUs from '../components/AboutUs';
+import VideoCard from '../components/VideoCard';
 
 // markup
 const IndexPage = () => {
@@ -15,6 +16,7 @@ const IndexPage = () => {
       <BannerSlider />
       <Service />
       <AboutUs />
+      <VideoCard />
     </Layout>
   );
 };
