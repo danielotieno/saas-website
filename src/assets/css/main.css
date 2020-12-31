@@ -1613,6 +1613,10 @@ h6 {
   color: var(--thm-black);
 }
 
+.saas-info {
+  color: var(--thm-base);
+}
+
 @media (max-width: 575px) {
   h1 br,
   h2 br,
@@ -1693,10 +1697,30 @@ h6 {
   padding: 16.5px 39.5px;
   -webkit-transition: 500ms;
   transition: 500ms;
-  background-color: var(--thm-base);
-  color: #fff;
   border-bottom-left-radius: 31.5px;
   border-top-left-radius: 31.5px;
+}
+
+.students-btn {
+  display: inline-block;
+  vertical-align: middle;
+  border: none;
+  outline: none;
+  background-color: var(--thm-primary);
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: var(--thm-font);
+  padding: 16.5px 39.5px;
+  -webkit-transition: 500ms;
+  transition: 500ms;
+  border-bottom-left-radius: 31.5px;
+  border-top-left-radius: 31.5px;
+}
+
+.students-btn:hover {
+  color: #ffffff;
+  background-color: var(--thm-base);
 }
 
 .thm-btn:hover {

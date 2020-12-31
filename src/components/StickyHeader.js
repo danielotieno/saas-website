@@ -27,7 +27,7 @@ const StickyHeader = ({ extraClassName }) => {
       <div className='container'>
         <div className='logo-box'>
           <Link to='/'>
-            <img src={logoLight} width='101' alt='' />
+            <img src={logoLight} width='130' alt='SAAS Logo' />
           </Link>
         </div>
         <div className='sticky-header__content'>

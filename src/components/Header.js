@@ -28,7 +28,7 @@ const Header = () => {
         <Container>
           <div className='logo-box'>
             <Link to='/'>
-              <img src={logoDark} width='150' alt='SAAS Logo' />
+              <img src={logoDark} width='180' alt='SAAS Logo' />
             </Link>
             <span className='fa fa-bars mobile-nav__toggler'></span>
           </div>
