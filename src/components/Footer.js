@@ -21,23 +21,25 @@ const Footer = () => {
                   />
                 </Link>
                 <p>
-                  Lorem ipsum dolor sit amet consect etur adi pisicing elit sed.
+                  Sponsor an African Scholar (SAAS) is an Irish charity (Charity
+                  Number CHY 17318) that provides sustainable solutions to
+                  communities in Kenya.
                 </p>
                 <ul className='list-unstyled footer-widget__contact'>
                   <li>
                     <a href='#none'>
-                      <i className='azino-icon-telephone'></i>666 888 0000
+                      <i className='azino-icon-telephone'></i>+254 (041) 476396
                     </a>
                   </li>
                   <li>
                     <a href='#none'>
-                      <i className='azino-icon-email'></i>needhelp@azino.com
+                      <i className='azino-icon-email'></i>info@saas.ie
                     </a>
                   </li>
                   <li>
                     <a href='#none'>
-                      <i className='azino-icon-pin'></i>88 Broklyn Golden
-                      Street, USA
+                      <i className='azino-icon-pin'></i>Umoja Road, Mombasa,
+                      Kenya
                     </a>
                   </li>
                 </ul>
