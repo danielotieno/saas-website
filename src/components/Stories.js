@@ -6,7 +6,7 @@ import StoryCard from './StoryCard';
 import blogImage1 from '../assets/images/blog/blog-1-1.jpg';
 import blogImage2 from '../assets/images/blog/blog-1-2.jpg';
 import blogImage3 from '../assets/images/blog/blog-1-3.jpg';
-import bgImage from '../assets/images/blog/blog-top.png';
+import bgImage from '../assets/images/success-bg.jpg';
 
 const BLOG_DATA = [
   {

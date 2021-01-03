@@ -3,9 +3,11 @@ import { Link } from 'gatsby';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Container, Row, Col } from 'react-bootstrap';
 import heartImage from '../assets/images/shapes/heart-2-1.png';
-import causeImage1 from '../assets/images/causes/cause-1-1.jpg';
+import causeImage1 from '../assets/images/profile-1.jpg';
 import causeImage2 from '../assets/images/causes/cause-1-4.jpg';
 import causeImage3 from '../assets/images/causes/cause-1-3.jpg';
+
+import abuprofile from '../assets/images/abu.pdf';
 
 const CausesHomeData = [
   {
@@ -13,7 +15,7 @@ const CausesHomeData = [
 
     title: 'Daniel',
     text: 'Lorem Ipsum simply dummy text of printng and type industry.',
-    link: '/cause-details',
+    link: abuprofile,
   },
   {
     image: causeImage2,
@@ -106,9 +108,9 @@ const NeedSponsor = () => {
                     </h3>
                     <p>{text}</p>
                     <div className='cause-card__bottom'>
-                      <Link className='thm-btn ' to={link}>
-                        Donate Now
-                      </Link>
+                      <a className='thm-btn' href={abuprofile}>
+                        Read Profile
+                      </a>
                     </div>
                   </div>
                 </div>

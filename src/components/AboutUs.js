@@ -1,16 +1,21 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import { Container, Row, Col } from 'react-bootstrap';
-import welcomeImage from '../assets/images/resources/about-1.jpg';
+import welcomeImage from '../assets/images/resources/abt.jpg';
 
 const AboutUs = () => {
   return (
-    <section className='about-two pt-120 pb-120'>
+    <section className='about-two pt-120 pb-120' id='about'>
       <Container>
         <Row>
           <Col xl={6}>
             <div className='about-two__image'>
-              <img src={welcomeImage} className='rounded-lg' alt='' />
+              <img
+                src={welcomeImage}
+                className='rounded-lg'
+                alt=''
+                width='480'
+              />
             </div>
           </Col>
           <Col xl={6}>

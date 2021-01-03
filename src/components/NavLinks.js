@@ -8,7 +8,7 @@ const NavLinks = ({ extraClassName }) => {
         <Link to='/'>Home</Link>
       </li>
       <li>
-        <Link to='/contact'>About</Link>
+        <Link to='/#about'>About</Link>
       </li>
       <li>
         <Link to='/contact'>News & Events</Link>
