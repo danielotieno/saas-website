@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
 const StoryCard = ({ image, title, text, link }) => {
   return (
@@ -11,9 +10,9 @@ const StoryCard = ({ image, title, text, link }) => {
         <div className='blog-card__content'>
           <h3 className='mt-4'>{title}</h3>
           <p>{text}</p>
-          <Link className='blog-card__more' to={link}>
+          <a className='blog-card__more' href={link}>
             <i className='far fa-angle-right'></i>Read More
-          </Link>
+          </a>
         </div>
       </div>
     </div>

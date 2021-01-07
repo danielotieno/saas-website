@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Link } from 'gatsby';
 import BlockTitle from './BlockTitle';
 import StoryCard from './StoryCard';
 import blogImage1 from '../assets/images/blog/blog-1-1.jpg';
@@ -11,21 +12,21 @@ import bgImage from '../assets/images/success-bg.jpg';
 const BLOG_DATA = [
   {
     image: blogImage1,
-    title: 'Our donation is hope for poor childrens',
+    title: 'Daniel Otieno',
 
     text: 'Lorem ipsum is simply free text used by copytyping refreshing.',
     link: '/news-details',
   },
   {
     image: blogImage2,
-    title: 'Our donation is hope for poor childrens',
+    title: 'Daniel Otieno',
 
     text: 'Lorem ipsum is simply free text used by copytyping refreshing.',
     link: '/news-details',
   },
   {
     image: blogImage3,
-    title: 'Our donation is hope for poor childrens',
+    title: 'Daniel Otieno',
 
     text: 'Lorem ipsum is simply free text used by copytyping refreshing.',
     link: '/news-details',
@@ -105,6 +106,11 @@ const Stories = () => {
             ))}
           </Swiper>
         </Container>
+        <div className='mt-4 text-center'>
+          <Link className='students-btn rounded-pill' to='#'>
+            Explore More Success Stories
+          </Link>
+        </div>
       </section>
     </>
   );

@@ -11,13 +11,13 @@ const NavLinks = ({ extraClassName }) => {
         <Link to='/#about'>About</Link>
       </li>
       <li>
-        <Link to='/contact'>News & Events</Link>
+        <Link to='/news'>News</Link>
       </li>
       <li>
-        <Link to='/contact'>Biographies</Link>
+        <Link to='/events'>Events</Link>
       </li>
       <li>
-        <Link to='/contact'>Gallery</Link>
+        <Link to='/bio'>Biographies</Link>
       </li>
       <li>
         <Link to='/contact'>Contact</Link>

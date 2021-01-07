@@ -102,9 +102,9 @@ const CurrentStudents = () => {
                     </h3>
                     <p>{text}</p>
                     <div className='cause-card__bottom'>
-                      <Link className='thm-btn ' to={link}>
-                        Donate Now
-                      </Link>
+                      <a className='thm-btn ' href={link}>
+                        Read Profile
+                      </a>
                     </div>
                   </div>
                 </div>

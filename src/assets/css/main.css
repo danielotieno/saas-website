@@ -1862,7 +1862,7 @@ h6 {
 
 @media (min-width: 992px) {
   .post-pagination {
-    margin-top: 60px;
+    margin-top: 40px;
   }
 }
 
@@ -3857,6 +3857,10 @@ h6 {
   margin-bottom: 40px;
 }
 
+.news-details [class*='col-'] {
+  margin-bottom: 20px;
+}
+
 .event-details h3 {
   margin: 0;
   font-size: 30px;
@@ -5215,7 +5219,7 @@ h6 {
   padding: 30px;
   background-color: #f1f1f1;
   border-radius: 15px;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 @media (min-width: 768px) {
@@ -5227,7 +5231,7 @@ h6 {
     -ms-flex-align: center;
     align-items: center;
     padding: 50px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
   }
 }
 
@@ -5258,7 +5262,7 @@ h6 {
 }
 
 .cause-details__presentations h3 {
-  font-size: 20px;
+  font-size: 16px;
   color: var(--thm-black);
   font-weight: bold;
   margin: 0;
@@ -5268,8 +5272,8 @@ h6 {
 
 @media (min-width: 768px) {
   .cause-details__presentations h3 {
-    font-size: 24px;
-    margin-left: 20px;
+    font-size: 20px;
+    margin-left: 15px;
   }
 }
 
