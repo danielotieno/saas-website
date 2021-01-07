@@ -44,22 +44,52 @@ const Partners = ({ extraClass }) => {
         <Swiper {...brandCarouselOptions}>
           <div className='swiper-wrapper'>
             <SwiperSlide>
-              <img src={kilquade} alt='' />
+              <a
+                href='https://www.kilquadeparish.ie/'
+                target='_blank'
+                rel='noopener noreferrer'>
+                <img src={kilquade} alt='Kilquade Logo' />
+              </a>
             </SwiperSlide>
             <SwiperSlide>
-              <img src={cavan} alt='' />
+              <a
+                href='http://www.cavancoco.ie/home.htm'
+                target='_blank'
+                rel='noopener noreferrer'>
+                <img src={cavan} alt='Cavan County Logo' />
+              </a>
             </SwiperSlide>
             <SwiperSlide>
-              <img src={avalon} alt='' />
+              <a
+                href='https://www.avolon.aero/'
+                target='_blank'
+                rel='noopener noreferrer'>
+                <img src={avalon} alt='Avolon Logo' />
+              </a>
             </SwiperSlide>
             <SwiperSlide>
-              <img src={kilquade} alt='' />
+              <a
+                href='https://www.kilquadeparish.ie/'
+                target='_blank'
+                rel='noopener noreferrer'>
+                <img src={kilquade} alt='Kilquade Logo' />
+              </a>
             </SwiperSlide>
             <SwiperSlide>
-              <img src={cavan} alt='' />
+              <a
+                href='http://www.cavancoco.ie/home.htm'
+                target='_blank'
+                rel='noopener noreferrer'>
+                <img src={cavan} alt='Cavan County Logo' />
+              </a>
             </SwiperSlide>
             <SwiperSlide>
-              <img src={avalon} alt='' />
+              <a
+                href='https://www.avolon.aero/'
+                target='_blank'
+                rel='noopener noreferrer'>
+                <img src={avalon} alt='Avolon Logo' />
+              </a>
             </SwiperSlide>
           </div>
         </Swiper>

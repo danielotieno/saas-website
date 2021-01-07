@@ -51,7 +51,7 @@ const Footer = () => {
             <Col lg={4} md={6} sm={12}>
               <div className='footer-widget mb-40 footer-widget__newsletter'>
                 <h3 className='footer-widget__title'>Newletter</h3>
-                <p>Signup now to get daily latest news & updates from us</p>
+                <p>Signup now to get latest news & updates from us</p>
                 <form
                   data-url='https://xyz.us18.list-manage.com/subscribe/post?u=20e91746ef818cd941998c598&id=cc0ee8140e'
                   className='footer-widget__newsletter-form mc-form'>
