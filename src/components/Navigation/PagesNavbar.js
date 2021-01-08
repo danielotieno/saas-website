@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import { Container, Row, Col } from 'react-bootstrap';
 import NavLinks from './NavLinks';
 
-import logoDark from '../assets/images/saas.png';
+import logoDark from '../../assets/images/saas.png';
 
 const PagesNavbar = () => {
   return (

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { Link as ScrollLink } from 'react-scroll';
 import { Container, Row, Col } from 'react-bootstrap';
-import logoLight from '../assets/images/saas.png';
+import logoLight from '../../assets/images/saas.png';
 
 const Footer = () => {
   return (

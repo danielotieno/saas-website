@@ -1,38 +1,66 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import SwiperCore, { Autoplay } from 'swiper';
+
 import { Link } from 'gatsby';
-import BlockTitle from './BlockTitle';
+import BlockTitle from '../BlockTitle';
 import StoryCard from './StoryCard';
-import blogImage1 from '../assets/images/blog/blog-1-1.jpg';
-import blogImage2 from '../assets/images/blog/blog-1-2.jpg';
-import blogImage3 from '../assets/images/blog/blog-1-3.jpg';
-import bgImage from '../assets/images/success-bg.jpg';
+import bgImage from '../../assets/images/success-bg.jpg';
+import OscarImg from '../../assets/images/stories/oscar.jpg';
+import OscarPdf from '../../assets/images/stories/oscar.pdf';
+import NaimaImg from '../../assets/images/stories/naima.jpg';
+import NaimaPdf from '../../assets/images/stories/naima.pdf';
+import BenImg from '../../assets/images/stories/ben.jpg';
+import BenPdf from '../../assets/images/stories/ben.pdf';
+import MikeImg from '../../assets/images/stories/mike.jpg';
+import MikePdf from '../../assets/images/stories/mike.pdf';
+import FredImg from '../../assets/images/stories/fred.jpg';
+import FredPdf from '../../assets/images/stories/fred.pdf';
+import JamesImg from '../../assets/images/stories/james.jpg';
+import JamesPdf from '../../assets/images/stories/james.pdf';
 
 const BLOG_DATA = [
   {
-    image: blogImage1,
-    title: 'Daniel Otieno',
-
-    text: 'Lorem ipsum is simply free text used by copytyping refreshing.',
-    link: '/news-details',
+    image: OscarImg,
+    title: 'Oscar Ochieng',
+    text: 'Radio Presenter',
+    link: OscarPdf,
   },
   {
-    image: blogImage2,
-    title: 'Daniel Otieno',
-
-    text: 'Lorem ipsum is simply free text used by copytyping refreshing.',
-    link: '/news-details',
+    image: NaimaImg,
+    title: 'Naima Jeneby',
+    text: 'Data Clerk',
+    link: NaimaPdf,
   },
   {
-    image: blogImage3,
-    title: 'Daniel Otieno',
-
-    text: 'Lorem ipsum is simply free text used by copytyping refreshing.',
-    link: '/news-details',
+    image: BenImg,
+    title: 'Benedict Luganje',
+    text: 'High School Teacher',
+    link: BenPdf,
+  },
+  {
+    image: MikeImg,
+    title: 'Michael Lumire',
+    text: 'Videographer',
+    link: MikePdf,
+  },
+  {
+    image: FredImg,
+    title: 'Fredrick Onyango',
+    text: 'Journalist',
+    link: FredPdf,
+  },
+  {
+    image: JamesImg,
+    title: 'James Kirima',
+    text: 'Accountant',
+    link: JamesPdf,
   },
 ];
-const Stories = () => {
+const AllStories = () => {
+  SwiperCore.use([Autoplay]);
+
   const blogCarouselOptions = {
     slidesPerView: 3,
     spaceBetween: 30,
@@ -93,7 +121,7 @@ const Stories = () => {
       </section>
       <section className='news-page pb-120'>
         <Container>
-          <Swiper {...blogCarouselOptions}>
+          <Swiper autoplay={{ delay: 3000 }} {...blogCarouselOptions}>
             {BLOG_DATA.map(({ image, title, text, link }, index) => (
               <SwiperSlide key={index}>
                 <StoryCard
@@ -116,4 +144,4 @@ const Stories = () => {
   );
 };
 
-export default Stories;
+export default AllStories;

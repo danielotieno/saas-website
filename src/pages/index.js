@@ -1,16 +1,16 @@
 import * as React from 'react';
-import Layout from '../components/Layout';
-import Header from '../components/Header';
-import StickyHeader from '../components/StickyHeader';
+import Layout from '../components/Navigation/Layout';
+import Header from '../components/Navigation/Header';
+import StickyHeader from '../components/Navigation/StickyHeader';
 import BannerSlider from '../components/BannerSlider';
 import Service from '../components/Service';
-import AboutUs from '../components/AboutUs';
+import AboutUs from '../components/About/AboutUs';
 import VideoCard from '../components/VideoCard';
-import NeedSponsor from '../components/NeedSponsor';
-import CurrentStudents from '../components/CurrentStudents';
-import Stories from '../components/Stories';
+import NeedSponsor from '../components/Waiting/NeedSponsor';
+import CurrentStudents from '../components/Current/CurrentStudents';
+import AllStories from '../components/Stories/AllStories';
 import Partners from '../components/Partners';
-import Footer from '../components/Footer';
+import Footer from '../components/Navigation/Footer';
 
 // markup
 const IndexPage = () => {
@@ -24,7 +24,7 @@ const IndexPage = () => {
       <VideoCard />
       <NeedSponsor />
       <CurrentStudents />
-      <Stories />
+      <AllStories />
       <Partners extraClass='client-carousel__has-top-shadow' />
       <Footer />
     </Layout>

@@ -1,10 +1,9 @@
 import * as React from 'react';
-import Layout from '../components/Layout';
-import PagesNavbar from '../components/PagesNavbar';
-import PageHeader from '../components/PageHeader';
-import EventPage from '../components/EventPage';
-
-import Footer from '../components/Footer';
+import Layout from '../components/Navigation/Layout';
+import PagesNavbar from '../components/Navigation/PagesNavbar';
+import PageHeader from '../components/Navigation/PageHeader';
+import EventPage from '../components/Events/EventPage';
+import Footer from '../components/Navigation/Footer';
 
 // markup
 const Events = () => {

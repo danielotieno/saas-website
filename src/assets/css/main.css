@@ -1354,6 +1354,7 @@
   opacity: 1;
   -webkit-transform: scale(1);
   transform: scale(1);
+  height: 419px;
   width: 100%;
   -webkit-transition: opacity 500ms ease, -webkit-transform 500ms ease;
   transition: opacity 500ms ease, -webkit-transform 500ms ease;

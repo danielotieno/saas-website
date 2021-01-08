@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import { Container, Row, Col } from 'react-bootstrap';
-import welcomeImage from '../assets/images/resources/abt.jpg';
+import welcomeImage from '../../assets/images/resources/abt.jpg';
 
 const AboutUs = () => {
   return (

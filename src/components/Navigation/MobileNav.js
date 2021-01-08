@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'gatsby';
 import NavLinks from './NavLinks';
 
-import logoLight from '../assets/images/saas.png';
+import logoLight from '../../assets/images/saas.png';
 
 const MobileNav = () => {
   const [hasMounted, setHasMounted] = useState(false);

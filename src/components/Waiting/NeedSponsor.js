@@ -2,10 +2,11 @@ import React from 'react';
 import { Link } from 'gatsby';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Container, Row, Col } from 'react-bootstrap';
-import heartImage from '../assets/images/shapes/heart-2-1.png';
-import causeImage1 from '../assets/images/causes/cause-1-1.jpg';
-import causeImage2 from '../assets/images/causes/cause-1-4.jpg';
-import causeImage3 from '../assets/images/causes/cause-1-3.jpg';
+import heartImage from '../../assets/images/shapes/heart-2-1.png';
+import causeImage1 from '../../assets/images/profile-1.jpg';
+import causeImage2 from '../../assets/images/causes/cause-1-4.jpg';
+import causeImage3 from '../../assets/images/causes/cause-1-3.jpg';
+import abuprofile from '../../assets/images/abu.pdf';
 
 const CausesHomeData = [
   {
@@ -13,7 +14,7 @@ const CausesHomeData = [
 
     title: 'Daniel',
     text: 'Lorem Ipsum simply dummy text of printng and type industry.',
-    link: '/cause-details',
+    link: abuprofile,
   },
   {
     image: causeImage2,
@@ -31,7 +32,7 @@ const CausesHomeData = [
   },
 ];
 
-const CurrentStudents = () => {
+const NeedSponsor = () => {
   const swiperParams = {
     slidesPerView: 3,
     spaceBetween: 30,
@@ -74,16 +75,20 @@ const CurrentStudents = () => {
             <div className='block-title'>
               <p>
                 <img src={heartImage} width='15' alt='' />
-                Current Students
+                Needy Students
               </p>
-              <h3>Our Current Students</h3>
+              <h3>
+                Students in need <br /> of Sponsorship.
+              </h3>
             </div>
           </Col>
           <Col lg={5} className=' d-flex'>
             <div className='my-auto'>
               <p className='block-text pr-10 mb-0'>
-                Below is a list of some of the students who currently have
-                sponsorship.
+                Below is a list of the students on our reserved list awaiting
+                sponsors. If you are interested in sponsoring any of these
+                students kindly email us at{' '}
+                <span className='saas-info'>info@saas.ie</span>. Thank you.
               </p>
             </div>
           </Col>
@@ -102,7 +107,7 @@ const CurrentStudents = () => {
                     </h3>
                     <p>{text}</p>
                     <div className='cause-card__bottom'>
-                      <a className='thm-btn ' href={link}>
+                      <a className='thm-btn' href={abuprofile}>
                         Read Profile
                       </a>
                     </div>
@@ -114,7 +119,7 @@ const CurrentStudents = () => {
         </Swiper>
         <div className='mt-4 text-center'>
           <Link className='students-btn rounded-pill' to='#'>
-            Explore Our Current Students
+            Explore More Needy Students
           </Link>
         </div>
       </Container>
@@ -122,4 +127,4 @@ const CurrentStudents = () => {
   );
 };
 
-export default CurrentStudents;
+export default NeedSponsor;

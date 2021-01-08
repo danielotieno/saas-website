@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import pageHeaderBg from '../assets/images/backgrounds/video-bg.jpg';
+import pageHeaderBg from '../../assets/images/backgrounds/video-bg.jpg';
 
 const PageHeader = ({ title, crumbTitle }) => {
   return (

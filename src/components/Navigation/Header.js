@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import { Container } from 'react-bootstrap';
 import NavLinks from './NavLinks';
 
-import logoDark from '../assets/images/saas.png';
+import logoDark from '../../assets/images/saas.png';
 
 const Header = () => {
   return (
