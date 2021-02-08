@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay, Pagination, EffectFade } from 'swiper';
@@ -41,12 +42,12 @@ const BannerSlider = () => {
                   Make a difference in families lives with just €35 a Month or
                   any amount you can afford
                 </p>
-                <a
-                  href='#none'
+                <Link
+                  to='/donation'
                   data-target='.donate-options'
                   className='scroll-to-target thm-btn rounded-pill'>
                   Start Donating
-                </a>
+                </Link>
               </Col>
             </Row>
           </Container>
@@ -64,12 +65,12 @@ const BannerSlider = () => {
                   Make a difference in families lives with just €35 a Month or
                   any amount you can afford
                 </p>
-                <a
-                  href='#none'
+                <Link
+                  to='/donation'
                   data-target='.donate-options'
                   className='scroll-to-target thm-btn rounded-pill'>
                   Start Donating
-                </a>
+                </Link>
               </Col>
             </Row>
           </Container>
@@ -87,12 +88,12 @@ const BannerSlider = () => {
                   Make a difference in families lives with just €35 a Month or
                   any amount you can afford
                 </p>
-                <a
-                  href='#none'
+                <Link
+                  to='/donation'
                   data-target='.donate-options'
                   className='scroll-to-target thm-btn rounded-pill'>
                   Start Donating
-                </a>
+                </Link>
               </Col>
             </Row>
           </Container>

@@ -27,7 +27,7 @@ const VideoCard = () => {
           who we aim to help.
         </p>
         <div className='video-card__btn-block'>
-          <Link to='/cause-details' className='thm-btn rounded-pill'>
+          <Link to='/donation' className='thm-btn rounded-pill'>
             Start Donating
           </Link>
 

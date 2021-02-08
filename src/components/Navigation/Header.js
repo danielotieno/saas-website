@@ -65,7 +65,7 @@ const Header = () => {
       <nav className='main-menu'>
         <Container>
           <NavLinks extraClassName='dynamic-radius' />
-          <Link className='thm-btn dynamic-radius' to='/contact'>
+          <Link className='thm-btn dynamic-radius' to='/donation'>
             Donate Now
           </Link>
         </Container>

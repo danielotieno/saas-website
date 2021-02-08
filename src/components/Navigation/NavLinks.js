@@ -17,6 +17,9 @@ const NavLinks = ({ extraClassName }) => {
         <Link to='/events'>Events</Link>
       </li>
       <li>
+        <Link to='/donation'>Support SAAS</Link>
+      </li>
+      <li>
         <Link to='/contact'>Contact</Link>
       </li>
     </ul>
