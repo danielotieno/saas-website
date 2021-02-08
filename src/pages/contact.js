@@ -2,18 +2,20 @@ import * as React from 'react';
 import Layout from '../components/Navigation/Layout';
 import PagesNavbar from '../components/Navigation/PagesNavbar';
 import PageHeader from '../components/Navigation/PageHeader';
-import AboutPage from '../components/About/AboutPage';
+import ContactForm from '../components/Contact/ContactForm';
+import GoogleMap from '../components/Contact/GoogleMap';
 import Footer from '../components/Navigation/Footer';
 
-const About = () => {
+const Contact = () => {
   return (
-    <Layout pageTitle='About SAAS Charity'>
+    <Layout pageTitle='Contact Us Page'>
       <PagesNavbar />
-      <PageHeader title='About Us' crumbTitle='About' />
-      <AboutPage />
+      <PageHeader title='Contact Us' crumbTitle='Contact' />
+      <ContactForm />
+      <GoogleMap extraClass='contact' />
       <Footer />
     </Layout>
   );
 };
 
-export default About;
+export default Contact;
