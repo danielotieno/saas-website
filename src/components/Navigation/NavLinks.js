@@ -1,5 +1,5 @@
-import React from 'react';
 import { Link } from 'gatsby';
+import React from 'react';
 
 const NavLinks = ({ extraClassName }) => {
   return (
@@ -12,9 +12,6 @@ const NavLinks = ({ extraClassName }) => {
       </li>
       <li>
         <Link to='/news'>News</Link>
-      </li>
-      <li>
-        <Link to='/events'>Events</Link>
       </li>
       <li>
         <Link to='/donation'>Support SAAS</Link>

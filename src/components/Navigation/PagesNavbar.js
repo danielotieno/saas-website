@@ -1,9 +1,8 @@
-import React from 'react';
 import { Link } from 'gatsby';
-import { Container, Row, Col } from 'react-bootstrap';
-import NavLinks from './NavLinks';
-
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 import logoDark from '../../assets/images/saas.png';
+import NavLinks from './NavLinks';
 
 const PagesNavbar = () => {
   return (

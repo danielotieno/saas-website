@@ -1,24 +1,22 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Col, Container, Row } from 'react-bootstrap';
 import SwiperCore, { Autoplay } from 'swiper';
-
-import { Link } from 'gatsby';
-import BlockTitle from '../BlockTitle';
-import StoryCard from './StoryCard';
-import bgImage from '../../assets/images/success-bg.jpg';
-import OscarImg from '../../assets/images/stories/oscar.jpg';
-import OscarPdf from '../../assets/images/stories/oscar.pdf';
-import NaimaImg from '../../assets/images/stories/naima.jpg';
-import NaimaPdf from '../../assets/images/stories/naima.pdf';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import BenImg from '../../assets/images/stories/ben.jpg';
 import BenPdf from '../../assets/images/stories/ben.pdf';
-import MikeImg from '../../assets/images/stories/mike.jpg';
-import MikePdf from '../../assets/images/stories/mike.pdf';
 import FredImg from '../../assets/images/stories/fred.jpg';
 import FredPdf from '../../assets/images/stories/fred.pdf';
 import JamesImg from '../../assets/images/stories/james.jpg';
 import JamesPdf from '../../assets/images/stories/james.pdf';
+import MikeImg from '../../assets/images/stories/mike.jpg';
+import MikePdf from '../../assets/images/stories/mike.pdf';
+import NaimaImg from '../../assets/images/stories/naima.jpg';
+import NaimaPdf from '../../assets/images/stories/naima.pdf';
+import OscarImg from '../../assets/images/stories/oscar.jpg';
+import OscarPdf from '../../assets/images/stories/oscar.pdf';
+import bgImage from '../../assets/images/success-bg.jpg';
+import BlockTitle from '../BlockTitle';
+import StoryCard from './StoryCard';
 
 const BLOG_DATA = [
   {
@@ -134,11 +132,6 @@ const AllStories = () => {
             ))}
           </Swiper>
         </Container>
-        <div className='mt-4 text-center'>
-          <Link className='students-btn rounded-pill' to='#'>
-            Explore More Success Stories
-          </Link>
-        </div>
       </section>
     </>
   );

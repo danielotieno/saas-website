@@ -2485,52 +2485,6 @@ h6 {
   transition: 500ms;
 }
 
-.main-header__language {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-.main-header__language img {
-  border-radius: 50%;
-  margin: 7px;
-}
-
-.main-header__language select,
-.main-header__language
-  .bootstrap-select:not([class*='col-']):not([class*='form-control']):not(.input-group-btn) {
-  width: 70px;
-}
-.main-header__language select {
-  appearance: none;
-  -webkit-appearance: none;
-  border: none;
-  outline: none;
-  color: #7e7e7e;
-  background-color: transparent;
-  font-size: 14px;
-}
-
-.main-header__language .bootstrap-select > .dropdown-toggle {
-  padding: 0;
-  border-radius: 0;
-  background-color: transparent;
-  color: #7e7e7e;
-  font-size: 14px;
-}
-
-.main-header__language .select-icon,
-.main-header__language .dropdown-toggle::after {
-  border: none;
-  content: '\f107';
-  font-family: 'Font Awesome 5 Pro';
-  font-weight: 400;
-  color: #7e7e7e;
-}
-
 .main-menu {
   background-color: var(--thm-black);
   padding-left: 50px;

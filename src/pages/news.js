@@ -1,15 +1,15 @@
 import * as React from 'react';
+import Footer from '../components/Navigation/Footer';
+import Header from '../components/Navigation/Header';
 import Layout from '../components/Navigation/Layout';
-import PagesNavbar from '../components/Navigation/PagesNavbar';
 import PageHeader from '../components/Navigation/PageHeader';
 import NewsPage from '../components/News/NewsPage';
-import Footer from '../components/Navigation/Footer';
 
 // markup
 const News = () => {
   return (
     <Layout pageTitle='SAAS Newsletters Page'>
-      <PagesNavbar />
+      <Header />
       <PageHeader title='SAAS Newsletters' crumbTitle='News' />
       <NewsPage />
       <Footer />

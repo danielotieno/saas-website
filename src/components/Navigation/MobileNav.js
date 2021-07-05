@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react';
 import { Link } from 'gatsby';
-import NavLinks from './NavLinks';
-
+import React, { useEffect, useState } from 'react';
 import logoLight from '../../assets/images/saas.png';
+import NavLinks from './NavLinks';
 
 const MobileNav = () => {
   const [hasMounted, setHasMounted] = useState(false);
@@ -78,29 +77,13 @@ const MobileNav = () => {
         <ul className='mobile-nav__contact list-unstyled'>
           <li>
             <i className='azino-icon-email'></i>
-            <a href='mailto:needhelp@azino.com'>needhelp@azino.com</a>
+            <a href='mailto:info@saas.ie'>info@saas.ie</a>
           </li>
           <li>
             <i className='azino-icon-telephone'></i>
-            <a href='tel:666-888-0000'>666 888 0000</a>
+            <a href='tel:741476396'>254 (0) 41 476396</a>
           </li>
         </ul>
-        <div className='mobile-nav__top'>
-          <div className='mobile-nav__social'>
-            <a href='#none' aria-label='twitter'>
-              <i className='fab fa-twitter'></i>
-            </a>
-            <a href='#none' aria-label='facebook'>
-              <i className='fab fa-facebook-square'></i>
-            </a>
-            <a href='#none' aria-label='pinterest'>
-              <i className='fab fa-pinterest-p'></i>
-            </a>
-            <a href='#none' aria-label='instagram'>
-              <i className='fab fa-instagram'></i>
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   );

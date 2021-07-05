@@ -1,14 +1,14 @@
 import * as React from 'react';
-import Layout from '../components/Navigation/Layout';
-import PagesNavbar from '../components/Navigation/PagesNavbar';
-import PageHeader from '../components/Navigation/PageHeader';
 import AboutPage from '../components/About/AboutPage';
 import Footer from '../components/Navigation/Footer';
+import Header from '../components/Navigation/Header';
+import Layout from '../components/Navigation/Layout';
+import PageHeader from '../components/Navigation/PageHeader';
 
 const About = () => {
   return (
     <Layout pageTitle='About SAAS Charity'>
-      <PagesNavbar />
+      <Header />
       <PageHeader title='About Us' crumbTitle='About' />
       <AboutPage />
       <Footer />

@@ -1,15 +1,15 @@
 import * as React from 'react';
-import Layout from '../components/Navigation/Layout';
-import PagesNavbar from '../components/Navigation/PagesNavbar';
-import PageHeader from '../components/Navigation/PageHeader';
 import ContactForm from '../components/Contact/ContactForm';
 import GoogleMap from '../components/Contact/GoogleMap';
 import Footer from '../components/Navigation/Footer';
+import Header from '../components/Navigation/Header';
+import Layout from '../components/Navigation/Layout';
+import PageHeader from '../components/Navigation/PageHeader';
 
 const Contact = () => {
   return (
     <Layout pageTitle='Contact Us Page'>
-      <PagesNavbar />
+      <Header />
       <PageHeader title='Contact Us' crumbTitle='Contact' />
       <ContactForm />
       <GoogleMap extraClass='contact' />

@@ -47,7 +47,9 @@ const Header = () => {
               <div className='header-info__box-content'>
                 <h3>Phone</h3>
                 <p>
-                  <a href='tel:704-144-76396'>254 (0) 41 476396</a>
+                  <a href='tel:704-144-76396'>
+                    254 (0) 41 476396 / +353 (0)87 2803823
+                  </a>
                 </p>
               </div>
             </div>
