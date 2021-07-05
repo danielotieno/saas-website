@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import BlockTitle from '../BlockTitle';
 
 const ContactForm = () => {
@@ -14,9 +14,10 @@ const ContactForm = () => {
                 tagLine='Contact With Us'
               />
               <p className='block-text mb-30 pr-10'>
-                Email us with any question or inquiries or call +353 (0)87
-                2803823 or +254 (041) 476396. We would be happy to answer your
-                questions.{' '}
+                You don't like forms? Email us at <strong>info@saas.ie</strong>{' '}
+                with any question or inquiries or call{' '}
+                <strong>+353 (0)87 2803823 / 254 (0) 41 476396</strong> . We
+                would be happy to answer your questions.{' '}
               </p>
               <div className='footer-social black-hover'>
                 <a href='#none' aria-label='twitter'>

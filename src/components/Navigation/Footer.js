@@ -32,10 +32,10 @@ const Footer = () => {
             </Col>
             <Col lg={4} md={6} sm={12}>
               <div className='footer-widget mb-40 footer-widget__newsletter'>
-                <h3 className='footer-widget__title'>Contact Us</h3>
+                <h3 className='footer-widget__title'>Connect With Us</h3>
                 <ul className='list-unstyled footer-widget__contact'>
                   <li>
-                    <i className='azino-icon-telephone'></i>+254 (041) 476396
+                    <i className='azino-icon-telephone'></i>254 (0) 41 476396
                   </li>
                   <li>
                     <i className='azino-icon-email'></i>info@saas.ie

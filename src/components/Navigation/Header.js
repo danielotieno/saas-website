@@ -1,9 +1,8 @@
-import React from 'react';
 import { Link } from 'gatsby';
+import React from 'react';
 import { Container } from 'react-bootstrap';
-import NavLinks from './NavLinks';
-
 import logoDark from '../../assets/images/saas.png';
+import NavLinks from './NavLinks';
 
 const Header = () => {
   return (
@@ -48,7 +47,7 @@ const Header = () => {
               <div className='header-info__box-content'>
                 <h3>Phone</h3>
                 <p>
-                  <a href='tel:704-144-76396'>+254 (041) 476396</a>
+                  <a href='tel:704-144-76396'>254 (0) 41 476396</a>
                 </p>
               </div>
             </div>
