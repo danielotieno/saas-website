@@ -4,10 +4,14 @@ import { Col, Container, Row } from 'react-bootstrap';
 import heartImage from '../../assets/images/shapes/heart-2-1.png';
 import Alyssa from '../../assets/images/waiting/alyssa.jpg';
 import AlyssaPdf from '../../assets/images/waiting/alyssa.pdf';
+import Gilbert from '../../assets/images/waiting/gilbert.jpg';
+import GilbertPdf from '../../assets/images/waiting/gilbert.pdf';
 import Kiko from '../../assets/images/waiting/kiko.jpg';
 import KikoPdf from '../../assets/images/waiting/kiko.pdf';
 import Moraa from '../../assets/images/waiting/moraa.jpg';
 import MoraaPdf from '../../assets/images/waiting/moraa.pdf';
+import Rhoda from '../../assets/images/waiting/rhoda.jpg';
+import RhodaPdf from '../../assets/images/waiting/rhoda.pdf';
 
 const CausesHomeData = [
   {
@@ -28,9 +32,21 @@ const CausesHomeData = [
     text: 'Maximilla is 15 years of age. She is looking forward to joining secondary school.',
     link: MoraaPdf,
   },
+  {
+    image: Gilbert,
+    title: 'Gilbert',
+    text: 'Gilbert is 16years of age. He is looking forward to joining a High school in July.',
+    link: GilbertPdf,
+  },
+  {
+    image: Rhoda,
+    title: 'Rhoda',
+    text: 'Rhoda is 15 years of age. She is looking forward to joining a secondary school in July 2021.',
+    link: RhodaPdf,
+  },
 ];
 
-const NeedSponsor = () => {
+const WaitingList = () => {
   return (
     <section className='causes-page causes-home pt-120 pb-120'>
       <Container>
@@ -81,14 +97,9 @@ const NeedSponsor = () => {
             </Col>
           ))}
         </Row>
-        <div className='mt-4 text-center'>
-          <Link className='students-btn rounded-pill' to='/waiting-students'>
-            Explore More Needy Students
-          </Link>
-        </div>
       </Container>
     </section>
   );
 };
 
-export default NeedSponsor;
+export default WaitingList;

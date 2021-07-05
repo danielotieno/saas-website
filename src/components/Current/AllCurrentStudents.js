@@ -1,36 +1,50 @@
 import { Link } from 'gatsby';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
+import causeImage1 from '../../assets/images/causes/cause-1-1.jpg';
+import causeImage3 from '../../assets/images/causes/cause-1-3.jpg';
+import causeImage2 from '../../assets/images/causes/cause-1-4.jpg';
 import heartImage from '../../assets/images/shapes/heart-2-1.png';
-import Alyssa from '../../assets/images/waiting/alyssa.jpg';
-import AlyssaPdf from '../../assets/images/waiting/alyssa.pdf';
-import Kiko from '../../assets/images/waiting/kiko.jpg';
-import KikoPdf from '../../assets/images/waiting/kiko.pdf';
-import Moraa from '../../assets/images/waiting/moraa.jpg';
-import MoraaPdf from '../../assets/images/waiting/moraa.pdf';
 
 const CausesHomeData = [
   {
-    image: Kiko,
-    title: 'Johnson',
-    text: 'Johnson is 15 years of age. He is looking forward to joining High school this July.',
-    link: KikoPdf,
+    image: causeImage1,
+
+    title: 'Daniel',
+    text: 'Lorem Ipsum simply dummy text of printng and type industry.',
+    link: '/cause-details',
   },
   {
-    image: Alyssa,
-    title: 'Alyssa',
-    text: 'Alyssa is 15 years of age. She completed her secondary education in march 2021.',
-    link: AlyssaPdf,
+    image: causeImage2,
+
+    title: 'Daniel',
+    text: 'Lorem Ipsum simply dummy text of printng and type industry.',
+    link: '/cause-details',
   },
   {
-    image: Moraa,
-    title: 'Maximilla',
-    text: 'Maximilla is 15 years of age. She is looking forward to joining secondary school.',
-    link: MoraaPdf,
+    image: causeImage3,
+
+    title: 'Daniel',
+    text: 'Lorem Ipsum simply dummy text of printng and type industry.',
+    link: '/cause-details',
+  },
+  {
+    image: causeImage3,
+
+    title: 'Daniel',
+    text: 'Lorem Ipsum simply dummy text of printng and type industry.',
+    link: '/cause-details',
+  },
+  {
+    image: causeImage3,
+
+    title: 'Daniel',
+    text: 'Lorem Ipsum simply dummy text of printng and type industry.',
+    link: '/cause-details',
   },
 ];
 
-const NeedSponsor = () => {
+const AllCurrentStudents = () => {
   return (
     <section className='causes-page causes-home pt-120 pb-120'>
       <Container>
@@ -39,20 +53,16 @@ const NeedSponsor = () => {
             <div className='block-title'>
               <p>
                 <img src={heartImage} width='15' alt='' />
-                Needy Students
+                Current Students
               </p>
-              <h3>
-                Students in need <br /> of Sponsorship.
-              </h3>
+              <h3>Our Current Students</h3>
             </div>
           </Col>
           <Col lg={5} className=' d-flex'>
             <div className='my-auto'>
               <p className='block-text pr-10 mb-0'>
-                Below is a list of the students on our reserved list awaiting
-                sponsors. If you are interested in sponsoring any of these
-                students kindly email us at{' '}
-                <span className='saas-info'>info@saas.ie</span>. Thank you.
+                Below is a list of some of the students who currently have
+                sponsorship.
               </p>
             </div>
           </Col>
@@ -82,8 +92,8 @@ const NeedSponsor = () => {
           ))}
         </Row>
         <div className='mt-4 text-center'>
-          <Link className='students-btn rounded-pill' to='/waiting-students'>
-            Explore More Needy Students
+          <Link className='students-btn rounded-pill' to='#'>
+            Explore Our Current Students
           </Link>
         </div>
       </Container>
@@ -91,4 +101,4 @@ const NeedSponsor = () => {
   );
 };
 
-export default NeedSponsor;
+export default AllCurrentStudents;
