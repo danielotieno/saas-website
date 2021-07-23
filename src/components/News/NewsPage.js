@@ -14,7 +14,11 @@ const NewsPage = () => {
                 <div className='cause-details__presentations'>
                   <i className='fa fa-file-pdf'></i>
                   <h3>{data.title}</h3>
-                  <a href={data.link} className='thm-btn dynamic-radius'>
+                  <a
+                    href={data.link}
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='thm-btn dynamic-radius'>
                     Download
                   </a>
                 </div>
