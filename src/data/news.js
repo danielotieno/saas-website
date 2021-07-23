@@ -1,4 +1,5 @@
 import Apr18 from '../assets/images/news/Apr18.pdf';
+import Aug17 from '../assets/images/news/Aug17.pdf';
 import Aug18 from '../assets/images/news/Aug18.pdf';
 import Dec20 from '../assets/images/news/Dec20.pdf';
 import July19 from '../assets/images/news/July19.pdf';
@@ -34,6 +35,10 @@ const NEWS_DATA = [
   {
     title: 'April 2018 - July 2018',
     link: Apr18,
+  },
+  {
+    title: 'Aug 2017 - Feb 2018',
+    link: Aug17,
   },
 ];
 
