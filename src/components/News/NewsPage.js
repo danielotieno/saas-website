@@ -1,6 +1,5 @@
 import * as React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import Pagination from '../../components/Pagination';
 import NEWS_DATA from '../../data/news';
 
 const NewsPage = () => {
@@ -26,7 +25,6 @@ const NewsPage = () => {
             );
           })}
         </Row>
-        <Pagination />
       </Container>
     </section>
   );
