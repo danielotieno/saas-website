@@ -1,48 +1,10 @@
 import { Link } from 'gatsby';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import causeImage1 from '../../assets/images/causes/cause-1-1.jpg';
-import causeImage3 from '../../assets/images/causes/cause-1-3.jpg';
-import causeImage2 from '../../assets/images/causes/cause-1-4.jpg';
 import heartImage from '../../assets/images/shapes/heart-2-1.png';
+import { getAllCurrentStudents } from '../../data/current-list';
 
-const CausesHomeData = [
-  {
-    image: causeImage1,
-
-    title: 'Daniel',
-    text: 'Lorem Ipsum simply dummy text of printng and type industry.',
-    link: '/cause-details',
-  },
-  {
-    image: causeImage2,
-
-    title: 'Daniel',
-    text: 'Lorem Ipsum simply dummy text of printng and type industry.',
-    link: '/cause-details',
-  },
-  {
-    image: causeImage3,
-
-    title: 'Daniel',
-    text: 'Lorem Ipsum simply dummy text of printng and type industry.',
-    link: '/cause-details',
-  },
-  {
-    image: causeImage3,
-
-    title: 'Daniel',
-    text: 'Lorem Ipsum simply dummy text of printng and type industry.',
-    link: '/cause-details',
-  },
-  {
-    image: causeImage3,
-
-    title: 'Daniel',
-    text: 'Lorem Ipsum simply dummy text of printng and type industry.',
-    link: '/cause-details',
-  },
-];
+const ALL_CURRENT_STUDENTS = getAllCurrentStudents();
 
 const AllCurrentStudents = () => {
   return (
@@ -52,7 +14,7 @@ const AllCurrentStudents = () => {
           <Col lg={7}>
             <div className='block-title'>
               <p>
-                <img src={heartImage} width='15' alt='' />
+                <img src={heartImage} width='15' alt='Heart' />
                 Current Students
               </p>
               <h3>Our Current Students</h3>
@@ -68,12 +30,12 @@ const AllCurrentStudents = () => {
           </Col>
         </Row>
         <Row>
-          {CausesHomeData.map(({ image, title, text, link }, index) => (
+          {ALL_CURRENT_STUDENTS.map(({ image, title, text, link }, index) => (
             <Col lg={4} key={index}>
-              <div className='cause-card'>
+              <div className='cause-card mt-30'>
                 <div className='cause-card__inner'>
                   <div className='cause-card__image'>
-                    <img src={image} alt='' />
+                    <img src={image} alt={title} />
                   </div>
                   <div className='cause-card__content'>
                     <h3>
@@ -91,11 +53,6 @@ const AllCurrentStudents = () => {
             </Col>
           ))}
         </Row>
-        <div className='mt-4 text-center'>
-          <Link className='students-btn rounded-pill' to='#'>
-            Explore Our Current Students
-          </Link>
-        </div>
       </Container>
     </section>
   );

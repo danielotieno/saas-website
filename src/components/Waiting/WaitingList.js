@@ -36,10 +36,10 @@ const WaitingList = () => {
         <Row>
           {ALL_WAITING_STUDENT.map(({ image, title, text, link }, index) => (
             <Col lg={4} key={index}>
-              <div className='cause-card'>
+              <div className='cause-card mt-30'>
                 <div className='cause-card__inner'>
                   <div className='cause-card__image'>
-                    <img src={image} alt={title} />
+                    <img src={image} height={370} alt={title} />
                   </div>
                   <div className='cause-card__content'>
                     <h3>
