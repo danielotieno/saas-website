@@ -2,33 +2,9 @@ import { Link } from 'gatsby';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import heartImage from '../../assets/images/shapes/heart-2-1.png';
-import Alyssa from '../../assets/images/waiting/alyssa.jpg';
-import AlyssaPdf from '../../assets/images/waiting/alyssa.pdf';
-import Kiko from '../../assets/images/waiting/kiko.jpg';
-import KikoPdf from '../../assets/images/waiting/kiko.pdf';
-import Moraa from '../../assets/images/waiting/moraa.jpg';
-import MoraaPdf from '../../assets/images/waiting/moraa.pdf';
+import { getFeaturedWaitingStudents } from '../../data/waiting-list';
 
-const CausesHomeData = [
-  {
-    image: Kiko,
-    title: 'Johnson',
-    text: 'Johnson is 15 years of age. He is looking forward to joining High school this July.',
-    link: KikoPdf,
-  },
-  {
-    image: Alyssa,
-    title: 'Alyssa',
-    text: 'Alyssa is 15 years of age. She completed her secondary education in march 2021.',
-    link: AlyssaPdf,
-  },
-  {
-    image: Moraa,
-    title: 'Maximilla',
-    text: 'Maximilla is 15 years of age. She is looking forward to joining secondary school.',
-    link: MoraaPdf,
-  },
-];
+const WAITING_FEATURED_STUDENTS = getFeaturedWaitingStudents();
 
 const NeedSponsor = () => {
   return (
@@ -38,7 +14,7 @@ const NeedSponsor = () => {
           <Col lg={7}>
             <div className='block-title'>
               <p>
-                <img src={heartImage} width='15' alt='' />
+                <img src={heartImage} width='15' alt='Heart' />
                 Needy Students
               </p>
               <h3>
@@ -58,28 +34,30 @@ const NeedSponsor = () => {
           </Col>
         </Row>
         <Row>
-          {CausesHomeData.map(({ image, title, text, link }, index) => (
-            <Col lg={4} key={index}>
-              <div className='cause-card'>
-                <div className='cause-card__inner'>
-                  <div className='cause-card__image'>
-                    <img src={image} alt='' />
-                  </div>
-                  <div className='cause-card__content'>
-                    <h3>
-                      <Link to={link}>{title}</Link>
-                    </h3>
-                    <p>{text}</p>
-                    <div className='cause-card__bottom'>
-                      <a className='thm-btn ' href={link}>
-                        Read Profile
-                      </a>
+          {WAITING_FEATURED_STUDENTS.map(
+            ({ image, title, text, link }, index) => (
+              <Col lg={4} key={index}>
+                <div className='cause-card'>
+                  <div className='cause-card__inner'>
+                    <div className='cause-card__image'>
+                      <img src={image} alt={title} />
+                    </div>
+                    <div className='cause-card__content'>
+                      <h3>
+                        <Link to={link}>{title}</Link>
+                      </h3>
+                      <p>{text}</p>
+                      <div className='cause-card__bottom'>
+                        <a className='thm-btn ' href={link}>
+                          Read Profile
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </Col>
-          ))}
+              </Col>
+            ),
+          )}
         </Row>
         <div className='mt-4 text-center'>
           <Link

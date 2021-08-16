@@ -2,49 +2,9 @@ import { Link } from 'gatsby';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import heartImage from '../../assets/images/shapes/heart-2-1.png';
-import Alyssa from '../../assets/images/waiting/alyssa.jpg';
-import AlyssaPdf from '../../assets/images/waiting/alyssa.pdf';
-import Gilbert from '../../assets/images/waiting/gilbert.jpg';
-import GilbertPdf from '../../assets/images/waiting/gilbert.pdf';
-import Kiko from '../../assets/images/waiting/kiko.jpg';
-import KikoPdf from '../../assets/images/waiting/kiko.pdf';
-import Moraa from '../../assets/images/waiting/moraa.jpg';
-import MoraaPdf from '../../assets/images/waiting/moraa.pdf';
-import Rhoda from '../../assets/images/waiting/rhoda.jpg';
-import RhodaPdf from '../../assets/images/waiting/rhoda.pdf';
+import { getAllWaitingStudents } from '../../data/waiting-list';
 
-const CausesHomeData = [
-  {
-    image: Kiko,
-    title: 'Johnson',
-    text: 'Johnson is 15 years of age. He is looking forward to joining High school this July.',
-    link: KikoPdf,
-  },
-  {
-    image: Alyssa,
-    title: 'Alyssa',
-    text: 'Alyssa is 15 years of age. She completed her secondary education in march 2021.',
-    link: AlyssaPdf,
-  },
-  {
-    image: Moraa,
-    title: 'Maximilla',
-    text: 'Maximilla is 15 years of age. She is looking forward to joining secondary school.',
-    link: MoraaPdf,
-  },
-  {
-    image: Gilbert,
-    title: 'Gilbert',
-    text: 'Gilbert is 16years of age. He is looking forward to joining a High school in July.',
-    link: GilbertPdf,
-  },
-  {
-    image: Rhoda,
-    title: 'Rhoda',
-    text: 'Rhoda is 15 years of age. She is looking forward to joining a secondary school in July 2021.',
-    link: RhodaPdf,
-  },
-];
+const ALL_WAITING_STUDENT = getAllWaitingStudents();
 
 const WaitingList = () => {
   return (
@@ -74,12 +34,12 @@ const WaitingList = () => {
           </Col>
         </Row>
         <Row>
-          {CausesHomeData.map(({ image, title, text, link }, index) => (
+          {ALL_WAITING_STUDENT.map(({ image, title, text, link }, index) => (
             <Col lg={4} key={index}>
               <div className='cause-card'>
                 <div className='cause-card__inner'>
                   <div className='cause-card__image'>
-                    <img src={image} alt='' />
+                    <img src={image} alt={title} />
                   </div>
                   <div className='cause-card__content'>
                     <h3>

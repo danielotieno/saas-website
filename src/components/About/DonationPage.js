@@ -22,7 +22,10 @@ const DonationPage = () => {
             </p>
             <p className='mb-4 text-center'>
               <a href='//widgets.justgiving.com/Button/Redirect?p=eyJUZXh0IjoiU0FBUyIsIklkIjoiYTY3MTY1MjYtMWVmOC00Y2Y1LWFiZjItZDc3ZDZlZmVmYjMyIiwiQ2hhcml0eUlkIjozMDY0MjE1LCJTaXplIjoicyIsIlJlZmVyZW5jZSI6IiIsIlR5cGUiOiJDaGFyaXR5RG9uYXRlIn0='>
-                <img src='//widgets.justgiving.com/Button?p=eyJUZXh0IjoiU0FBUyIsIklkIjoiYTY3MTY1MjYtMWVmOC00Y2Y1LWFiZjItZDc3ZDZlZmVmYjMyIiwiQ2hhcml0eUlkIjozMDY0MjE1LCJTaXplIjoicyIsIlJlZmVyZW5jZSI6IiIsIlR5cGUiOiJDaGFyaXR5RG9uYXRlIn0=' />
+                <img
+                  src='//widgets.justgiving.com/Button?p=eyJUZXh0IjoiU0FBUyIsIklkIjoiYTY3MTY1MjYtMWVmOC00Y2Y1LWFiZjItZDc3ZDZlZmVmYjMyIiwiQ2hhcml0eUlkIjozMDY0MjE1LCJTaXplIjoicyIsIlJlZmVyZW5jZSI6IiIsIlR5cGUiOiJDaGFyaXR5RG9uYXRlIn0='
+                  alt='Donation Button'
+                />
               </a>
             </p>
           </Col>
@@ -52,7 +55,10 @@ const DonationPage = () => {
             </p>
             <p>
               <a href='//widgets.justgiving.com/Button/Redirect?p=eyJJZCI6IjdjYmJkMTgxLTcwMzUtNDM2MC04NTNmLWZkYjJmYjg2OGM5MCIsIkNoYXJpdHlJZCI6MzA2NDIxNSwiU2l6ZSI6InMiLCJSZWZlcmVuY2UiOiIiLCJUeXBlIjoiRG9uYXRlIn0='>
-                <img src='//widgets.justgiving.com/Button?p=eyJJZCI6IjdjYmJkMTgxLTcwMzUtNDM2MC04NTNmLWZkYjJmYjg2OGM5MCIsIkNoYXJpdHlJZCI6MzA2NDIxNSwiU2l6ZSI6InMiLCJSZWZlcmVuY2UiOiIiLCJUeXBlIjoiRG9uYXRlIn0=' />
+                <img
+                  src='//widgets.justgiving.com/Button?p=eyJJZCI6IjdjYmJkMTgxLTcwMzUtNDM2MC04NTNmLWZkYjJmYjg2OGM5MCIsIkNoYXJpdHlJZCI6MzA2NDIxNSwiU2l6ZSI6InMiLCJSZWZlcmVuY2UiOiIiLCJUeXBlIjoiRG9uYXRlIn0='
+                  alt='Donation Button'
+                />
               </a>
             </p>
           </Col>
