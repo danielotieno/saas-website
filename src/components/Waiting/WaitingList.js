@@ -54,7 +54,7 @@ const WaitingList = () => {
           <Col lg={7}>
             <div className='block-title'>
               <p>
-                <img src={heartImage} width='15' alt='' />
+                <img src={heartImage} width='15' alt='Heart' />
                 Needy Students
               </p>
               <h3>

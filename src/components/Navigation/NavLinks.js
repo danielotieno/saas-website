@@ -12,7 +12,7 @@ const NavLinks = ({ extraClassName }) => {
         <Link to='/'>Home</Link>
       </li>
       <li>
-        <Link to='/about'>About</Link>
+        <Link to='/about-us'>About Us</Link>
       </li>
       <li className='dropdown'>
         <Link to='/current-students'>Students</Link>
@@ -35,7 +35,7 @@ const NavLinks = ({ extraClassName }) => {
         <Link to='/donation'>Support SAAS</Link>
       </li>
       <li>
-        <Link to='/contact'>Contact</Link>
+        <Link to='/contact-us'>Contact Us</Link>
       </li>
     </ul>
   );

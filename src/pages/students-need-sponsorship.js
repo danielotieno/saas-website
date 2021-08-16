@@ -9,7 +9,7 @@ const WaitingStudentList = () => {
   return (
     <Layout pageTitle='All Students in Waiting List Page'>
       <Header />
-      <PageHeader title='Waiting List' crumbTitle='Waiting' />
+      <PageHeader title='Students Need Sponsorship' crumbTitle='Waiting' />
       <WaitingList />
       <Footer />
     </Layout>

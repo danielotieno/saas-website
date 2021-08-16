@@ -1,34 +1,10 @@
-import React from 'react';
 import { Link } from 'gatsby';
+import React from 'react';
 import { Container } from 'react-bootstrap';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import image1 from '../assets/images/resources/s-1.png';
-import image2 from '../assets/images/resources/s-1.png';
-import image3 from '../assets/images/resources/s-1.png';
 import heart from '../assets/images/shapes/heart-2-2.png';
-const SERVICE_TWO_DATA = [
-  {
-    extraClassName: 'background-secondary',
-    image: image1,
-    title: 'Support a student',
-    text: 'Start Donating',
-    link: '#',
-  },
-  {
-    extraClassName: 'background-primary',
-    image: image2,
-    title: 'Support our work',
-    text: 'Start Donating',
-    link: '#',
-  },
-  {
-    extraClassName: 'background-base',
-    image: image3,
-    title: 'Become a volunteer',
-    text: 'Let’s Join',
-    link: '#',
-  },
-];
+import SERVICE_DATA from '../data/services';
+
 const Service = () => {
   const sliderOptions = {
     slidesPerView: 3,
@@ -68,7 +44,7 @@ const Service = () => {
     <section className='service-two'>
       <Container>
         <Swiper {...sliderOptions}>
-          {SERVICE_TWO_DATA.map(
+          {SERVICE_DATA.map(
             ({ extraClassName, image, title, text, link }, index) => (
               <SwiperSlide key={`service-two-key-${index}`}>
                 <div
