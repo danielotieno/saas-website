@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 
 // markup
 const DonationPage = () => {
@@ -34,7 +34,9 @@ const DonationPage = () => {
               SAAS requires your support in order to continue providing
               education to deserving children in Mombasa. School fees cost €420
               per year (€35 a month) / £360 per year (£30 a month / £1 a day),
-              however, we are delighted to receive any amount that you can
+              however,you can co-sponsor a student with a smaller donation €10,
+              €15 or €20 a month, we have so many students needing sponsorship,
+              every € helps. We are delighted to receive any amount that you can
               spare.
             </p>
           </Col>
