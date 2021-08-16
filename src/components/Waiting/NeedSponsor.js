@@ -82,7 +82,9 @@ const NeedSponsor = () => {
           ))}
         </Row>
         <div className='mt-4 text-center'>
-          <Link className='students-btn rounded-pill' to='/waiting-students'>
+          <Link
+            className='students-btn rounded-pill'
+            to='/students-need-sponsorship'>
             Explore More Needy Students
           </Link>
         </div>

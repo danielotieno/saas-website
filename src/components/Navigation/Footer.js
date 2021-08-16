@@ -63,16 +63,17 @@ const Footer = () => {
             className='scroll-to-top'>
             <i className='far fa-angle-up'></i>
           </ScrollLink>
-          <p>© Copyright {new Date().getFullYear()}</p>
+          <p>© Copyright 2006 - Present </p>
           <div className='footer-social'>
             <a href='#none' aria-label='twitter'>
               <i className='fab fa-twitter'></i>
             </a>
-            <a href='#none' aria-label='facebook'>
+            <a
+              href='https://www.facebook.com/Sponsor-An-African-Scholar-1426611800887597'
+              target='_blank'
+              rel='noopener noreferrer'
+              aria-label='facebook'>
               <i className='fab fa-facebook-square'></i>
-            </a>
-            <a href='#none' aria-label='instagram'>
-              <i className='fab fa-instagram'></i>
             </a>
           </div>
         </div>
