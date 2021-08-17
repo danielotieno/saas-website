@@ -2,60 +2,11 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import SwiperCore, { Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import BenImg from '../../assets/images/stories/ben.jpg';
-import BenPdf from '../../assets/images/stories/ben.pdf';
-import FredImg from '../../assets/images/stories/fred.jpg';
-import FredPdf from '../../assets/images/stories/fred.pdf';
-import JamesImg from '../../assets/images/stories/james.jpg';
-import JamesPdf from '../../assets/images/stories/james.pdf';
-import MikeImg from '../../assets/images/stories/mike.jpg';
-import MikePdf from '../../assets/images/stories/mike.pdf';
-import NaimaImg from '../../assets/images/stories/naima.jpg';
-import NaimaPdf from '../../assets/images/stories/naima.pdf';
-import OscarImg from '../../assets/images/stories/oscar.jpg';
-import OscarPdf from '../../assets/images/stories/oscar.pdf';
 import bgImage from '../../assets/images/success-bg.jpg';
+import SUCCESS_STORIES from '../../data/stories';
 import BlockTitle from '../BlockTitle';
 import StoryCard from './StoryCard';
 
-const BLOG_DATA = [
-  {
-    image: OscarImg,
-    title: 'Oscar Ochieng',
-    text: 'Radio Presenter',
-    link: OscarPdf,
-  },
-  {
-    image: NaimaImg,
-    title: 'Naima Jeneby',
-    text: 'Data Clerk',
-    link: NaimaPdf,
-  },
-  {
-    image: BenImg,
-    title: 'Benedict Luganje',
-    text: 'High School Teacher',
-    link: BenPdf,
-  },
-  {
-    image: MikeImg,
-    title: 'Michael Lumire',
-    text: 'Videographer',
-    link: MikePdf,
-  },
-  {
-    image: FredImg,
-    title: 'Fredrick Onyango',
-    text: 'Journalist',
-    link: FredPdf,
-  },
-  {
-    image: JamesImg,
-    title: 'James Kirima',
-    text: 'Accountant',
-    link: JamesPdf,
-  },
-];
 const AllStories = () => {
   SwiperCore.use([Autoplay]);
 
@@ -120,7 +71,7 @@ const AllStories = () => {
       <section className='news-page pb-120'>
         <Container>
           <Swiper autoplay={{ delay: 3000 }} {...blogCarouselOptions}>
-            {BLOG_DATA.map(({ image, title, text, link }, index) => (
+            {SUCCESS_STORIES.map(({ image, title, text, link }, index) => (
               <SwiperSlide key={index}>
                 <StoryCard
                   image={image}

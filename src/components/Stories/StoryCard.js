@@ -5,7 +5,7 @@ const StoryCard = ({ image, title, text, link }) => {
     <div className='blog-card'>
       <div className='blog-card__inner'>
         <div className='blog-card__image'>
-          <img src={image} alt='' />
+          <img src={image} alt={title} />
         </div>
         <div className='blog-card__content'>
           <h3 className='mt-4'>{title}</h3>
