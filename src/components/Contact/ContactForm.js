@@ -34,13 +34,13 @@ const ContactForm = () => {
           </Col>
           <Col lg={7}>
             <form
-              method='post'
+              method='POST'
               netlify-honeypot='bot-field'
               data-netlify='true'
               name='contactUs'
               className='contact-form-validated contact-page__form form-one mb-40'>
-              <input type='hidden' name='bot-field' />
               <input type='hidden' name='form-name' value='contactUs' />
+              <input type='hidden' name='bot-field' />
               <div className='form-group'>
                 <div className='form-control'>
                   <label htmlFor='name' className='sr-only'>
