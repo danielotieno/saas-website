@@ -48,7 +48,11 @@ const NeedSponsor = () => {
                       </h3>
                       <p>{text}</p>
                       <div className='cause-card__bottom'>
-                        <a className='thm-btn ' href={link}>
+                        <a
+                          className='thm-btn'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          href={link}>
                           Read Profile
                         </a>
                       </div>

@@ -21,10 +21,13 @@ const DonationPage = () => {
               your credit / debit card by clicking on the image below.
             </p>
             <p className='mb-4 text-center'>
-              <a href='//widgets.justgiving.com/Button/Redirect?p=eyJUZXh0IjoiU0FBUyIsIklkIjoiYTY3MTY1MjYtMWVmOC00Y2Y1LWFiZjItZDc3ZDZlZmVmYjMyIiwiQ2hhcml0eUlkIjozMDY0MjE1LCJTaXplIjoicyIsIlJlZmVyZW5jZSI6IiIsIlR5cGUiOiJDaGFyaXR5RG9uYXRlIn0='>
+              <a
+                href='https://link.justgiving.com/v1/charity/donate/charityId/3064215?tipScheme=TipJar2.1&reference=givingcheckout_tj21'
+                target='_blank'
+                rel='noopener noreferrer'>
                 <img
-                  src='//widgets.justgiving.com/Button?p=eyJUZXh0IjoiU0FBUyIsIklkIjoiYTY3MTY1MjYtMWVmOC00Y2Y1LWFiZjItZDc3ZDZlZmVmYjMyIiwiQ2hhcml0eUlkIjozMDY0MjE1LCJTaXplIjoicyIsIlJlZmVyZW5jZSI6IiIsIlR5cGUiOiJDaGFyaXR5RG9uYXRlIn0='
-                  alt='Donation Button'
+                  src='//widgets.justgiving.com/Button?p=eyJUZXh0IjoiU3BvbnNvciBhbiBBZnJpY2FuIFNjaG9sYXIgKFNBQVMpIiwiSWQiOiJhMWQ5YzRiNS1iZWM4LTQ1YzctODI5Ny1hZWNkYTU2YzE3YWUiLCJDaGFyaXR5SWQiOjMwNjQyMTUsIlNpemUiOiJzIiwiUmVmZXJlbmNlIjoiIiwiVHlwZSI6IkNoYXJpdHlEb25hdGUifQ=='
+                  alt='Donation'
                 />
               </a>
             </p>
@@ -54,10 +57,13 @@ const DonationPage = () => {
               or monthly €35 payment or any amount you can afford
             </p>
             <p>
-              <a href='//widgets.justgiving.com/Button/Redirect?p=eyJJZCI6IjdjYmJkMTgxLTcwMzUtNDM2MC04NTNmLWZkYjJmYjg2OGM5MCIsIkNoYXJpdHlJZCI6MzA2NDIxNSwiU2l6ZSI6InMiLCJSZWZlcmVuY2UiOiIiLCJUeXBlIjoiRG9uYXRlIn0='>
+              <a
+                href='https://link.justgiving.com/v1/charity/donate/charityId/3064215?tipScheme=TipJar2.1&reference=givingcheckout_tj21'
+                target='_blank'
+                rel='noopener noreferrer'>
                 <img
-                  src='//widgets.justgiving.com/Button?p=eyJJZCI6IjdjYmJkMTgxLTcwMzUtNDM2MC04NTNmLWZkYjJmYjg2OGM5MCIsIkNoYXJpdHlJZCI6MzA2NDIxNSwiU2l6ZSI6InMiLCJSZWZlcmVuY2UiOiIiLCJUeXBlIjoiRG9uYXRlIn0='
-                  alt='Donation Button'
+                  src='//widgets.justgiving.com/Button?p=eyJUZXh0IjoiU3BvbnNvciBhbiBBZnJpY2FuIFNjaG9sYXIgKFNBQVMpIiwiSWQiOiJhMWQ5YzRiNS1iZWM4LTQ1YzctODI5Ny1hZWNkYTU2YzE3YWUiLCJDaGFyaXR5SWQiOjMwNjQyMTUsIlNpemUiOiJzIiwiUmVmZXJlbmNlIjoiIiwiVHlwZSI6IkNoYXJpdHlEb25hdGUifQ=='
+                  alt='Donation'
                 />
               </a>
             </p>
