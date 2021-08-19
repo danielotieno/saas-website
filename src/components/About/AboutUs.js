@@ -1,6 +1,6 @@
-import React from 'react';
 import { Link } from 'gatsby';
-import { Container, Row, Col } from 'react-bootstrap';
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
 import welcomeImage from '../../assets/images/resources/abt.jpg';
 
 const AboutUs = () => {
@@ -63,7 +63,7 @@ const AboutUs = () => {
                 </Col>
               </Row>
               <Link className='thm-btn rounded-pill mt-5' to='/about'>
-                Read More
+                About SAAS
               </Link>
             </div>
           </Col>
