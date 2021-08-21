@@ -4,11 +4,13 @@ import Footer from '../components/Navigation/Footer';
 import Header from '../components/Navigation/Header';
 import Layout from '../components/Navigation/Layout';
 import PageHeader from '../components/Navigation/PageHeader';
+import StickyHeader from '../components/Navigation/StickyHeader';
 
 const CurrentStudentsList = () => {
   return (
     <Layout pageTitle='Our students who have sponsorship'>
       <Header />
+      <StickyHeader extraClassName='stricky-header-two' />
       <PageHeader title='Our Current Students' crumbTitle='Current' />
       <AllCurrentStudents />
       <Footer />

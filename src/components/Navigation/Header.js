@@ -67,9 +67,13 @@ const Header = () => {
       <nav className='main-menu'>
         <Container>
           <NavLinks extraClassName='dynamic-radius' />
-          <Link className='thm-btn dynamic-radius' to='/donation'>
+          <a
+            className='thm-btn dynamic-radius'
+            href='https://link.justgiving.com/v1/charity/donate/charityId/3064215?tipScheme=TipJar2.1&reference=givingcheckout_tj21'
+            target='_blank'
+            rel='noopener noreferrer'>
             Donate Now
-          </Link>
+          </a>
         </Container>
       </nav>
     </div>

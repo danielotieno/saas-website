@@ -5,6 +5,7 @@ import Footer from '../components/Navigation/Footer';
 import Header from '../components/Navigation/Header';
 import Layout from '../components/Navigation/Layout';
 import PageHeader from '../components/Navigation/PageHeader';
+import StickyHeader from '../components/Navigation/StickyHeader';
 
 const Donation = () => {
   return (
@@ -27,6 +28,7 @@ const Donation = () => {
       />
       <Layout pageTitle='Donation Page'>
         <Header />
+        <StickyHeader extraClassName='stricky-header-two' />
         <PageHeader title='Donate Now' crumbTitle='Donation' />
         <DonationPage />
         <Footer />

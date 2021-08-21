@@ -5,6 +5,7 @@ import Footer from '../components/Navigation/Footer';
 import Header from '../components/Navigation/Header';
 import Layout from '../components/Navigation/Layout';
 import PageHeader from '../components/Navigation/PageHeader';
+import StickyHeader from '../components/Navigation/StickyHeader';
 
 const About = () => {
   return (
@@ -27,6 +28,7 @@ const About = () => {
       />
       <Layout pageTitle='About SAAS Charity'>
         <Header />
+        <StickyHeader extraClassName='stricky-header-two' />
         <PageHeader title='About Us' crumbTitle='About' />
         <AboutPage />
         <Footer />

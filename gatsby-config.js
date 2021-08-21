@@ -1,5 +1,3 @@
-import SaasImage from './src/assets/images/saas-image.png';
-
 module.exports = {
   plugins: [
     `gatsby-plugin-sharp`,
@@ -17,7 +15,8 @@ module.exports = {
         twitter: {
           handle: '@danielotienoke',
           site: '@danielotienoke',
-          cardType: SaasImage,
+          cardType:
+            'https://saas.ie/static/saas-777abe5bdc607226f8f7aeffd933f9fb.png',
         },
       },
     },

@@ -6,6 +6,7 @@ import Footer from '../components/Navigation/Footer';
 import Header from '../components/Navigation/Header';
 import Layout from '../components/Navigation/Layout';
 import PageHeader from '../components/Navigation/PageHeader';
+import StickyHeader from '../components/Navigation/StickyHeader';
 
 const Contact = () => {
   return (
@@ -28,6 +29,7 @@ const Contact = () => {
       />
       <Layout pageTitle='Contact Us Page'>
         <Header />
+        <StickyHeader extraClassName='stricky-header-two' />
         <PageHeader title='Contact Us' crumbTitle='Contact' />
         <ContactForm />
         <GoogleMap extraClass='contact' />
