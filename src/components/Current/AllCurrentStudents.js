@@ -35,7 +35,7 @@ const AllCurrentStudents = () => {
               <div className='cause-card mt-30'>
                 <div className='cause-card__inner'>
                   <div className='cause-card__image'>
-                    <img src={image} alt={title} />
+                    <img src={image} loading='lazy' alt={title} />
                   </div>
                   <div className='cause-card__content'>
                     <h3>

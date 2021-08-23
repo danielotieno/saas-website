@@ -14,7 +14,7 @@ const CurrentStudents = () => {
           <Col lg={7}>
             <div className='block-title'>
               <p>
-                <img src={heartImage} width='15' alt='' />
+                <img src={heartImage} width='15' alt='Heart' />
                 Current Students
               </p>
               <h3>Our Current Students</h3>
@@ -36,7 +36,7 @@ const CurrentStudents = () => {
                 <div className='cause-card'>
                   <div className='cause-card__inner'>
                     <div className='cause-card__image'>
-                      <img src={image} alt={title} />
+                      <img src={image} loading='lazy' alt={title} />
                     </div>
                     <div className='cause-card__content'>
                       <h3>
