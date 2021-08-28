@@ -62,7 +62,7 @@ const AboutUs = () => {
                   </div>
                 </Col>
               </Row>
-              <Link className='thm-btn rounded-pill mt-5' to='/about'>
+              <Link className='thm-btn rounded-pill mt-5' to='/about-us'>
                 About SAAS
               </Link>
             </div>
