@@ -68,7 +68,7 @@ const WAITING_STUDENTS = [
   {
     image: Omar,
     title: 'Mohammad',
-    text: 'Mohammad is 14 years of age. He is a very hardworking young boy and he will be completing his secondary level in 2024',
+    text: 'Mohammad is 14 years of age.He is a very hardworking young boy. He will finish secondary school in 2024.',
     link: OmarPdf,
     isFeatured: true,
   },
