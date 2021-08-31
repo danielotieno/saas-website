@@ -43,7 +43,7 @@ const CURRENT_STUDENTS = [
   {
     image: Leah,
     title: 'Leah',
-    text: 'Leah is 18 years old. Currently, she is in Form 3 student and a full-time boarder at Kingwede Girl’s High School.',
+    text: 'Leah is 18 years old. She is currently in form 4, in High School, is a full-time boarder.',
     link: LeahPdf,
     isFeatured: false,
   },
