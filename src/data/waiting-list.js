@@ -1,49 +1,76 @@
-import Alyssa from '../assets/images/waiting/alyssa.jpg';
-import AlyssaPdf from '../assets/images/waiting/alyssa.pdf';
-import Gilbert from '../assets/images/waiting/gilbert.jpg';
-import GilbertPdf from '../assets/images/waiting/gilbert.pdf';
-import Kiko from '../assets/images/waiting/kiko.jpg';
-import KikoPdf from '../assets/images/waiting/kiko.pdf';
-import Moraa from '../assets/images/waiting/moraa.jpg';
-import MoraaPdf from '../assets/images/waiting/moraa.pdf';
-import Rhoda from '../assets/images/waiting/rhoda.jpg';
-import RhodaPdf from '../assets/images/waiting/rhoda.pdf';
+import Braxton from '../assets/images/waiting/Braxton.jpg';
+import BraxtonPdf from '../assets/images/waiting/braxton.pdf';
+import Collins from '../assets/images/waiting/collins.jpg';
+import CollinsPdf from '../assets/images/waiting/collins.pdf';
+import David from '../assets/images/waiting/David.jpg';
+import DavidPdf from '../assets/images/waiting/david.pdf';
+import Fadhili from '../assets/images/waiting/Fadhili.jpeg';
+import FadhiliPdf from '../assets/images/waiting/fadhili.pdf';
+import HajraPdf from '../assets/images/waiting/hajira.pdf';
+import Hajra from '../assets/images/waiting/Hajra.jpg';
+import Happiness from '../assets/images/waiting/Happiness.jpg';
+import HappinessPdf from '../assets/images/waiting/happiness.pdf';
+import Mbarak from '../assets/images/waiting/mbarak.jpg';
+import MbarakPdf from '../assets/images/waiting/mbarak.pdf';
+import Omar from '../assets/images/waiting/Omar.jpg';
+import OmarPdf from '../assets/images/waiting/omar.pdf';
 
 const WAITING_STUDENTS = [
   {
-    image: Kiko,
-    title: 'Johnson',
-    text: 'Johnson is 15 years of age. He is looking forward to joining High school this July.',
-    link: KikoPdf,
+    image: Braxton,
+    title: 'Braxton',
+    text: 'Braxton is currently in form 2 . He will be completing his high school education in 2024.',
+    link: BraxtonPdf,
     isFeatured: true,
   },
   {
-    image: Alyssa,
-    title: 'Alyssa',
-    text: 'Alyssa is 15 years of age. She completed her secondary education in march 2021.',
-    link: AlyssaPdf,
-    isFeatured: true,
-  },
-  {
-    image: Moraa,
-    title: 'Maximilla',
-    text: 'Maximilla is 15 years of age. She is looking forward to joining secondary school.',
-    link: MoraaPdf,
-    isFeatured: true,
-  },
-  {
-    image: Gilbert,
-    title: 'Gilbert',
-    text: 'Gilbert is 16years of age. He is looking forward to joining a High school in July.',
-    link: GilbertPdf,
+    image: Collins,
+    title: 'Collins',
+    text: 'Collins is currently in form 4 . He will be completing his high school education next year.',
+    link: CollinsPdf,
     isFeatured: false,
   },
   {
-    image: Rhoda,
-    title: 'Rhoda',
-    text: 'Rhoda is 15 years of age. She is looking forward to joining a secondary school in July 2021.',
-    link: RhodaPdf,
+    image: David,
+    title: 'David',
+    text: 'David is a full-time border and currently in form 2. He will finish secondary school in 2024.',
+    link: DavidPdf,
     isFeatured: false,
+  },
+  {
+    image: Fadhili,
+    title: 'Fadhili',
+    text: 'Fadhili is 15 years of age. He is looking forward to joining the high school this august if he gets a donor.',
+    link: FadhiliPdf,
+    isFeatured: false,
+  },
+  {
+    image: Hajra,
+    title: 'Hajra',
+    text: 'Hajra is 15 years of age. She is in form 1 and a full-time day scholar. Hajra is an intelligent young girl.',
+    link: HajraPdf,
+    isFeatured: true,
+  },
+  {
+    image: Happiness,
+    title: 'Happiness',
+    text: 'Happiness is a full-time border and a Form 1 student. She will be finishing high school in 2024.',
+    link: HappinessPdf,
+    isFeatured: false,
+  },
+  {
+    image: Mbarak,
+    title: 'Mbarak',
+    text: 'Mbarak is 16 years old. He finished his primary education in a government school.',
+    link: MbarakPdf,
+    isFeatured: false,
+  },
+  {
+    image: Omar,
+    title: 'Mohammad',
+    text: 'Mohammad is 14 years of age. He is a very hardworking young boy and he will be completing his secondary level in 2024',
+    link: OmarPdf,
+    isFeatured: true,
   },
 ];
 
