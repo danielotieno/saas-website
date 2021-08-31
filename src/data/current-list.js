@@ -29,7 +29,7 @@ const CURRENT_STUDENTS = [
   {
     image: Seline,
     title: 'Seline',
-    text: 'Seline is 17 years old. She is currently in form 4, in High School.',
+    text: 'Seline is 17 years old. She is currently in form 4, in High School, is a full-time boarder.',
     link: SelinePdf,
     isFeatured: true,
   },
