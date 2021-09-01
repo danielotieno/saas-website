@@ -40,12 +40,7 @@ const NeedSponsor = () => {
                 <div className='cause-card'>
                   <div className='cause-card__inner'>
                     <div className='cause-card__image'>
-                      <img
-                        src={image}
-                        height={370}
-                        loading='lazy'
-                        alt={title}
-                      />
+                      <img src={image} loading='lazy' alt={title} />
                     </div>
                     <div className='cause-card__content'>
                       <h3>
