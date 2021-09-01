@@ -6,6 +6,8 @@ import David from '../assets/images/waiting/David.jpg';
 import DavidPdf from '../assets/images/waiting/david.pdf';
 import Fadhili from '../assets/images/waiting/Fadhili.jpeg';
 import FadhiliPdf from '../assets/images/waiting/fadhili.pdf';
+import George from '../assets/images/waiting/George.jpeg';
+import GeorgePdf from '../assets/images/waiting/George.pdf';
 import Hajra from '../assets/images/waiting/Hajra.jpg';
 import HajraPdf from '../assets/images/waiting/hajra.pdf';
 import Happiness from '../assets/images/waiting/Happiness.jpg';
@@ -71,6 +73,13 @@ const WAITING_STUDENTS = [
     text: 'Mohammad is 14 years of age.He is a very hardworking young boy. He will finish secondary school in 2024.',
     link: OmarPdf,
     isFeatured: true,
+  },
+  {
+    image: George,
+    title: 'George',
+    text: 'George is 17 years of age, he is in form 2 and a full-time border in High school.',
+    link: GeorgePdf,
+    isFeatured: false,
   },
 ];
 
