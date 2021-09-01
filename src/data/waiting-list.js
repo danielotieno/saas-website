@@ -26,17 +26,24 @@ const WAITING_STUDENTS = [
     isFeatured: true,
   },
   {
+    image: Hajra,
+    title: 'Hajra',
+    text: 'Hajra is 15 years of age. She is in form 1 and a full-time day scholar. Hajra is an intelligent young girl.',
+    link: HajraPdf,
+    isFeatured: true,
+  },
+  {
+    image: Omar,
+    title: 'Mohammad',
+    text: 'Mohammad is 14 years of age.He is a very hardworking young boy. He will finish secondary school in 2024.',
+    link: OmarPdf,
+    isFeatured: true,
+  },
+  {
     image: Collins,
     title: 'Collins',
     text: 'Collins is currently in form 4 . He will be completing his high school education next year.',
     link: CollinsPdf,
-    isFeatured: false,
-  },
-  {
-    image: David,
-    title: 'David',
-    text: 'David is a full-time border and currently in form 2. He will finish secondary school in 2024.',
-    link: DavidPdf,
     isFeatured: false,
   },
   {
@@ -47,13 +54,6 @@ const WAITING_STUDENTS = [
     isFeatured: false,
   },
   {
-    image: Hajra,
-    title: 'Hajra',
-    text: 'Hajra is 15 years of age. She is in form 1 and a full-time day scholar. Hajra is an intelligent young girl.',
-    link: HajraPdf,
-    isFeatured: true,
-  },
-  {
     image: Happiness,
     title: 'Happiness',
     text: 'Happiness is a full-time border and a Form 1 student. She will be finishing high school in 2024.',
@@ -61,24 +61,26 @@ const WAITING_STUDENTS = [
     isFeatured: false,
   },
   {
+    image: George,
+    title: 'George',
+    text: 'George is 17 years of age, he is in form 2 and a full-time border in High school.',
+    link: GeorgePdf,
+    isFeatured: false,
+  },
+
+  {
     image: Mbarak,
     title: 'Mbarak',
     text: 'Mbarak is 16 years old. He finished his primary education in a government school.',
     link: MbarakPdf,
     isFeatured: false,
   },
+
   {
-    image: Omar,
-    title: 'Mohammad',
-    text: 'Mohammad is 14 years of age.He is a very hardworking young boy. He will finish secondary school in 2024.',
-    link: OmarPdf,
-    isFeatured: true,
-  },
-  {
-    image: George,
-    title: 'George',
-    text: 'George is 17 years of age, he is in form 2 and a full-time border in High school.',
-    link: GeorgePdf,
+    image: David,
+    title: 'David',
+    text: 'David is a full-time border and currently in form 2. He will finish secondary school in 2024.',
+    link: DavidPdf,
     isFeatured: false,
   },
 ];
