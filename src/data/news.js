@@ -1,4 +1,5 @@
 import Apr18 from '../assets/images/news/Apr18.pdf';
+import Apr21 from '../assets/images/news/Apr21.pdf';
 import Aug17 from '../assets/images/news/Aug17.pdf';
 import Aug18 from '../assets/images/news/Aug18.pdf';
 import Dec20 from '../assets/images/news/Dec20.pdf';
@@ -8,6 +9,10 @@ import March20 from '../assets/images/news/March20.pdf';
 import Nov19 from '../assets/images/news/Nov19.pdf';
 
 const NEWS_DATA = [
+  {
+    title: 'Jan 2021 - April 2021',
+    link: Apr21,
+  },
   {
     title: 'Aug 2020 - Dec 2020',
     link: Dec20,
