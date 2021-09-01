@@ -29,7 +29,7 @@ const CURRENT_STUDENTS = [
   {
     image: Graham,
     title: 'Graham',
-    text: 'Graham is 19 years of age. He finished is high school education in March 2021 and managed to score B plain.',
+    text: 'Graham is 19 years of age. He finished is high school education in March 2021 and managed to score B',
     link: GrahamPdf,
     isFeatured: false,
   },
