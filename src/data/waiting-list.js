@@ -71,7 +71,7 @@ const WAITING_STUDENTS = [
   {
     image: Mbarak,
     title: 'Mbarak',
-    text: 'Mbarak is 16 years old. He finished his primary education in a government school.',
+    text: 'Mbarak is 16 years old. He completed his primary education in a government school.',
     link: MbarakPdf,
     isFeatured: false,
   },

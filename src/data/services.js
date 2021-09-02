@@ -24,7 +24,7 @@ const SERVICE_DATA = [
     image: image3,
     title: 'Become a volunteer',
     text: 'Let’s Join',
-    link: '/contact',
+    link: '/contact-us',
   },
 ];
 
