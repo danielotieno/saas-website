@@ -58,7 +58,7 @@ const ContactForm = () => {
                     email
                   </label>
                   <input
-                    type='text'
+                    type='email'
                     name='email'
                     id='email'
                     placeholder='Email Address'
@@ -70,7 +70,7 @@ const ContactForm = () => {
                     phone
                   </label>
                   <input
-                    type='text'
+                    type='tel'
                     name='phone'
                     id='phone'
                     placeholder='Phone Number(Optional)'
