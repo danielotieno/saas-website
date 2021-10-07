@@ -2,7 +2,34 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import BlockTitle from '../BlockTitle';
 
+function encode(data) {
+  return Object.keys(data)
+    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .join('&');
+}
+
 const ContactForm = () => {
+  const [state, setState] = React.useState({});
+
+  const handleChange = (e) => {
+    setState({ ...state, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const form = e.target;
+    fetch('/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: encode({
+        'form-name': form.getAttribute('name'),
+        ...state,
+      }),
+    })
+      .then(() => navigate(form.getAttribute('action')))
+      .catch((error) => alert(error));
+  };
+
   return (
     <section className='contact-page pt-120 pb-80'>
       <Container>
@@ -34,22 +61,23 @@ const ContactForm = () => {
           </Col>
           <Col lg={7}>
             <form
-              name='ContactForm'
-              method='POST'
-              netlify
+              name='contact'
+              method='post'
+              data-netlify='true'
               data-netlify-honeypot='bot-field'
+              onSubmit={handleSubmit}
               className='contact-form-validated contact-page__form form-one mb-40'>
-              <input type='hidden' name='form-name' value='ContactForm' />
+              <input type='hidden' name='form-name' value='contact' />{' '}
               <div className='form-group'>
                 <div className='form-control'>
                   <label htmlFor='name' className='sr-only'>
-                    Name
+                    FullName
                   </label>
                   <input
                     type='text'
                     name='name'
-                    id='name'
                     placeholder='Your Name'
+                    onChange={handleChange}
                     required
                   />
                 </div>
@@ -60,8 +88,8 @@ const ContactForm = () => {
                   <input
                     type='email'
                     name='email'
-                    id='email'
                     placeholder='Email Address'
+                    onChange={handleChange}
                     required
                   />
                 </div>
@@ -72,8 +100,8 @@ const ContactForm = () => {
                   <input
                     type='text'
                     name='phone'
-                    id='phone'
                     placeholder='Phone Number(Optional)'
+                    onChange={handleChange}
                   />
                 </div>
                 <div className='form-control'>
@@ -83,8 +111,8 @@ const ContactForm = () => {
                   <input
                     type='text'
                     name='subject'
-                    id='subject'
                     placeholder='Subject'
+                    onChange={handleChange}
                     required
                   />
                 </div>
@@ -95,7 +123,7 @@ const ContactForm = () => {
                   <textarea
                     name='message'
                     placeholder='Write a Message'
-                    id='message'
+                    onChange={handleChange}
                     required></textarea>
                 </div>
                 <div className='form-control form-control-full'>
