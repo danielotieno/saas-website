@@ -70,7 +70,7 @@ const ContactForm = () => {
                     phone
                   </label>
                   <input
-                    type='tel'
+                    type='text'
                     name='phone'
                     id='phone'
                     placeholder='Phone Number(Optional)'
