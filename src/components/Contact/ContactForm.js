@@ -1,3 +1,4 @@
+import { navigate } from 'gatsby';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import BlockTitle from '../BlockTitle';
