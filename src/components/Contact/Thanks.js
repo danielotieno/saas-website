@@ -7,7 +7,7 @@ const Thanks = () => {
     <section className='contact-page pt-120 pb-80'>
       <Container>
         <Row>
-          <Col lg={5}>
+          <Col lg={6}>
             <div className='contact-page__content mb-40'>
               <BlockTitle
                 title={`Thank you for sharing this with us`}
@@ -31,22 +31,13 @@ const Thanks = () => {
               </div>
             </div>
           </Col>
-          <Col lg={7}>
+          <Col lg={6}>
             <div className='contact-card d-flex flex-column text-center justify-content-center align-items-center background-primary'>
               <i aria-label='contact icon' className='azino-icon-address'></i>
               <h3>Address</h3>
               <p>
-                88 Broklyn Golden Street, <br /> New York. United States of{' '}
-                <br /> America.
-              </p>
-            </div>
-
-            <div className='contact-card d-flex flex-column text-center justify-content-center align-items-center background-special'>
-              <i aria-label='contact icon' className='azino-icon-contact'></i>
-              <h3>Contact</h3>
-              <p>
-                <a href='mailto:'>needhelp@azino.com</a> <br />{' '}
-                <a href='tel:666-888-0000'>666 888 0000</a>
+                24 Fairfield Ave, East Wall, <br /> Dublin 3, D03 TE27, <br />{' '}
+                Ireland
               </p>
             </div>
           </Col>
