@@ -60,19 +60,18 @@ const WAITING_STUDENTS = [
   },
 
   {
-    image: Daviana,
-    title: 'Daviana',
-    text: 'She is currently in form 1.She will be completing her education in the year 2024',
-    link: DavianaPdf,
-    isFeatured: false,
-  },
-
-  {
     image: Collins,
     title: 'Collins',
     text: 'Collins is currently in form 4 . He will be completing his high school education next year.',
     link: CollinsPdf,
     isFeatured: false,
+  },
+  {
+    image: George,
+    title: 'George',
+    text: 'George is 17 years of age, he is in form 2 and a full-time border in High school.',
+    link: GeorgePdf,
+    isFeatured: true,
   },
   {
     image: Fadhili,
@@ -89,11 +88,11 @@ const WAITING_STUDENTS = [
     isFeatured: false,
   },
   {
-    image: George,
-    title: 'George',
-    text: 'George is 17 years of age, he is in form 2 and a full-time border in High school.',
-    link: GeorgePdf,
-    isFeatured: true,
+    image: Daviana,
+    title: 'Daviana',
+    text: 'She is currently in form 1.She will be completing her education in the year 2024',
+    link: DavianaPdf,
+    isFeatured: false,
   },
 ];
 

@@ -1,5 +1,4 @@
 import { Link } from 'gatsby';
-import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import heartImage from '../../assets/images/shapes/heart-2-1.png';
 import { getFeaturedWaitingStudents } from '../../data/waiting-list';
@@ -37,7 +36,7 @@ const NeedSponsor = () => {
           {WAITING_FEATURED_STUDENTS.map(
             ({ image, title, text, link }, index) => (
               <Col lg={4} key={index}>
-                <div className='cause-card'>
+                <div className='cause-card mt-30'>
                   <div className='cause-card__inner'>
                     <div className='cause-card__image'>
                       <img src={image} loading='lazy' alt={title} />
