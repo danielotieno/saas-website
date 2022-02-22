@@ -2,9 +2,9 @@ import Braxton from '../assets/images/waiting/Braxton.jpg';
 import BraxtonPdf from '../assets/images/waiting/braxton.pdf';
 import Collins from '../assets/images/waiting/collins.jpg';
 import CollinsPdf from '../assets/images/waiting/collins.pdf';
-import Daviana from '../assets/images/waiting/Daviana.jpg';
+import Daviana from '../assets/images/waiting/daviana.jpeg';
 import DavianaPdf from '../assets/images/waiting/daviana.pdf';
-import Esther from '../assets/images/waiting/Esther.jpg';
+import Esther from '../assets/images/waiting/esther.jpg';
 import EstherPdf from '../assets/images/waiting/esther.pdf';
 import Fadhili from '../assets/images/waiting/Fadhili.jpeg';
 import FadhiliPdf from '../assets/images/waiting/fadhili.pdf';
@@ -12,11 +12,11 @@ import George from '../assets/images/waiting/George.jpeg';
 import GeorgePdf from '../assets/images/waiting/George.pdf';
 import Happiness from '../assets/images/waiting/Happiness.jpg';
 import HappinessPdf from '../assets/images/waiting/happiness.pdf';
-import Lydia from '../assets/images/waiting/Lydia.jpg';
+import Lydia from '../assets/images/waiting/lydia.jpg';
 import LydiaPdf from '../assets/images/waiting/lydia.pdf';
-import Mwanamisi from '../assets/images/waiting/Mwanamisi.jpg';
+import Mwanamisi from '../assets/images/waiting/mwanamisi.jpg';
 import MwanamisiPdf from '../assets/images/waiting/mwanamisi.pdf';
-import Omar from '../assets/images/waiting/Omar.jpg';
+import Omar from '../assets/images/waiting/omar.jpg';
 import OmarPdf from '../assets/images/waiting/omar.pdf';
 
 const WAITING_STUDENTS = [
