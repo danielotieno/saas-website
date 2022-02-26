@@ -1,5 +1,4 @@
 import { Link } from 'gatsby';
-import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import heartImage from '../../assets/images/shapes/heart-2-1.png';
 import { getAllWaitingStudents } from '../../data/waiting-list';
