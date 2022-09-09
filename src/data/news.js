@@ -9,8 +9,13 @@ import July20 from '../assets/images/news/July20.pdf';
 import March20 from '../assets/images/news/March20.pdf';
 import Nov19 from '../assets/images/news/Nov19.pdf';
 import Sep21 from '../assets/images/news/Sep21.pdf';
+import Feb22 from '../assets/images/news/Feb22.pdf';
 
 const NEWS_DATA = [
+  {
+    title: 'Feb 2022 - May 2022',
+    link: Feb22,
+  },
   {
     title: 'Sep 2021 - Jan 2022',
     link: Sep21,
