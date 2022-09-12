@@ -2,10 +2,6 @@ import Abraham from '../assets/images/current/Abraham.jpg';
 import AbrahamPdf from '../assets/images/current/Abraham.pdf';
 import Amina from '../assets/images/current/Amina.jpg';
 import AminaPdf from '../assets/images/current/Amina.pdf';
-import Gloria from '../assets/images/current/Gloria.jpg';
-import GloriaPdf from '../assets/images/current/Gloria.pdf';
-import Grace from '../assets/images/current/Grace.jpg';
-import GracePdf from '../assets/images/current/Grace.pdf';
 import Graham from '../assets/images/current/Graham.jpg';
 import GrahamPdf from '../assets/images/current/Graham.pdf';
 import Halima from '../assets/images/current/Halima.jpg';
@@ -24,70 +20,70 @@ import Seline from '../assets/images/current/Seline.jpg';
 import SelinePdf from '../assets/images/current/Seline.pdf';
 import Sila from '../assets/images/current/Sila.jpg';
 import SilaPdf from '../assets/images/current/Sila.pdf';
+import Zulfa from '../assets/images/current/Zulfa.png';
+import ZulfaPdf from '../assets/images/current/Zulfa.pdf';
+import Josephat from '../assets/images/current/Josephat.png';
+import JosephatPdf from '../assets/images/current/Josephat.pdf';
+import Juma from '../assets/images/current/Juma.png';
+import JumaPdf from '../assets/images/current/Juma.pdf';
 
 const CURRENT_STUDENTS = [
   {
     image: Graham,
     title: 'Graham',
-    text: 'Graham is 19 years of age. He completed is high school education in March 2021 and managed to score B',
+    text: 'Graham is 19 years of age. He is currently in his 2nd year semester 1 at Chuka university.',
     link: GrahamPdf,
     isFeatured: false,
   },
   {
-    image: Grace,
-    title: 'Grace',
-    text: 'Grace is 18 years old, she is currently in her final year, form 4, in High school and is a full-time boarder.',
-    link: GracePdf,
+    image: Zulfa,
+    title: 'Zulfa',
+    text: 'Zulfa is a full-time border. Currently, she is in form 3. She will finish high school in November 2023',
+    link: ZulfaPdf,
     isFeatured: true,
   },
   {
     image: Kemmy,
     title: 'Kemmy',
-    text: 'Kemmy is 17 years of age. Thanks to SAAS organization, She is currently in form one.',
+    text: 'Kemmy is 18 years of age. Thanks to the SAAS organization, She is in form 2 and full-time border in high school.',
     link: KemmyPdf,
-    isFeatured: false,
+    isFeatured: true,
   },
   {
-    image: Gloria,
-    title: 'Gloria',
-    text: 'Gloria is 17 years of age. She is currently in form four and a full-time day scholar.',
-    link: GloriaPdf,
-    isFeatured: true,
+    image: Josephat,
+    title: 'Josephat',
+    text: 'Josephat is 20 years of age. Josephat complete his secondary school in March 2022 and scored a C+',
+    link: JosephatPdf,
+    isFeatured: false,
   },
   {
     image: Amina,
     title: 'Amina',
-    text: 'Amina is currently in form 3. She will be finishing her high school level in 2022.',
+    text: 'Amina is currently in form 4 and a full-time border in High school. She will be finishing high school level in 2022.',
     link: AminaPdf,
     isFeatured: false,
   },
   {
     image: Abraham,
     title: 'Abraham',
-    text: 'Abraham is 19 years of age. He completed his High school level in March 2021. He managed to score A-',
+    text: 'Abraham is 20 years of age; he was born on 7th November 2002. He is currently in year 2 at the Technical University of Mombasa.',
     link: AbrahamPdf,
     isFeatured: true,
   },
   {
     image: Iddah,
     title: 'Iddah',
-    text: 'Iddah is 19 years of age. She is currently in form two, in a boarding high school.',
+    text: 'Idah is 19 years of age. She is currently in form 3 in a boarding school. Iddah is a hardworking young lady',
     link: IddahPdf,
     isFeatured: false,
   },
-  {
-    image: Seline,
-    title: 'Seline',
-    text: 'Seline is 17 years old. She is currently in form 4, in High School, is a full-time boarder.',
-    link: SelinePdf,
-    isFeatured: true,
-  },
+
   {
     image: Patrick,
     title: 'Patrick',
-    text: 'Patrick is 19 years old, through the help of SAAS organization, he completed high school in march 2021.',
+    text: 'Patrick is 19 years of age, He is currently in university and undertaking a Bachelor of Science.',
     link: PatrickPdf,
-    isFeatured: false,
+    isFeatured: true,
   },
   {
     image: Kelvin,
@@ -116,6 +112,13 @@ const CURRENT_STUDENTS = [
     title: 'Sila',
     text: 'Sila is 22 years of age. Thanks to SAAS, Sila was able to attend high school and he is currently university, studying bachelor in commerce.',
     link: SilaPdf,
+    isFeatured: false,
+  },
+  {
+    image: Juma,
+    title: 'Juma',
+    text: 'Juma is 18 years of age. He is currently in form 4 and has a full-time border in high school.',
+    link: JumaPdf,
     isFeatured: false,
   },
 ];
