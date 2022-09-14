@@ -37,7 +37,7 @@ const WAITING_STUDENTS = [
     title: 'Happiness',
     text: 'Happiness is a full-time border and a Form 2 student. She will be finishing high school in 2024.',
     link: HappinessPdf,
-    isFeatured: true,
+    isFeatured: false,
   },
   {
     image: Naomi,
@@ -107,7 +107,7 @@ const WAITING_STUDENTS = [
     title: 'Omar',
     text: 'Omar is in form 2. He will be completing his secondary school education in the year 2024.',
     link: OmarPdf,
-    isFeatured: true,
+    isFeatured: false,
   },
 ];
 
