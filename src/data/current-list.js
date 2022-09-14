@@ -16,8 +16,6 @@ import Leah from '../assets/images/current/Leah.jpg';
 import LeahPdf from '../assets/images/current/Leah.pdf';
 import Patrick from '../assets/images/current/Patrick.jpg';
 import PatrickPdf from '../assets/images/current/Patrick.pdf';
-import Seline from '../assets/images/current/Seline.jpg';
-import SelinePdf from '../assets/images/current/Seline.pdf';
 import Sila from '../assets/images/current/Sila.jpg';
 import SilaPdf from '../assets/images/current/Sila.pdf';
 import Zulfa from '../assets/images/current/Zulfa.png';
