@@ -3847,6 +3847,11 @@ h6 {
   margin-top: 10px;
 }
 
+.event-title {
+  color: #ff7916 !important;
+  font-weight: bolder !important;
+}
+
 @media (min-width: 768px) {
   .event-details p + p {
     margin-top: 40px;
