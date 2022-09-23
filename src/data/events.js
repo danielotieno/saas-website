@@ -16,14 +16,14 @@ const EVENT_DATA = [
   {
     image: ParentsMeeting,
     title: 'Parents Meeting',
-    date: 'Dec',
+    date: 'Apr',
     location: 'SAAS Office',
     link: '/',
   },
   {
     image: GirlsForum,
     title: 'Girls Forum',
-    date: 'Jun',
+    date: 'Dec',
     location: 'SAAS Office',
     link: '/',
   },
@@ -37,7 +37,7 @@ const EVENT_DATA = [
   {
     image: FoodProgram,
     title: 'Food Relief Program',
-    date: 'Nov',
+    date: 'Dec',
     location: 'SAAS Office',
     link: '/',
   },
