@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { Container } from 'react-bootstrap';
 import Footer from '../components/Navigation/Footer';
 import Header from '../components/Navigation/Header';
 import Layout from '../components/Navigation/Layout';
