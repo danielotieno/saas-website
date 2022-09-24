@@ -32,7 +32,7 @@ const EVENT_DATA = [
     title: 'Fun Day & Awards',
     date: 'Apr',
     location: 'SAAS Office',
-    link: '/',
+    link: '/fun-day',
   },
   {
     image: FoodProgram,
