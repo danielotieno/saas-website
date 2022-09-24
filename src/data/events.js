@@ -25,7 +25,7 @@ const EVENT_DATA = [
     title: 'Girls Forum',
     date: 'Dec',
     location: 'SAAS Office',
-    link: '/',
+    link: '/girls-forum',
   },
   {
     image: FunDay,
