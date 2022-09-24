@@ -39,7 +39,7 @@ const EVENT_DATA = [
     title: 'Food Relief Program',
     date: 'Dec',
     location: 'SAAS Office',
-    link: '/',
+    link: '/food-program',
   },
   {
     image: DonorVisit,
