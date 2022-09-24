@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import TopStudentsGallery from '../components/EventGallery/TopStudentsGallery';
 import Footer from '../components/Navigation/Footer';
 import Header from '../components/Navigation/Header';

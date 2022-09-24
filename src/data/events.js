@@ -18,7 +18,7 @@ const EVENT_DATA = [
     title: 'Parents Meeting',
     date: 'Apr',
     location: 'SAAS Office',
-    link: '/',
+    link: '/parents-meeting',
   },
   {
     image: GirlsForum,
