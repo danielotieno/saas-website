@@ -11,7 +11,7 @@ const EVENT_DATA = [
     title: 'SAAS Top Students in 2021 National Exams',
     date: 'May',
     location: 'SAAS Office',
-    link: '/',
+    link: '/top-students-2021',
   },
   {
     image: ParentsMeeting,
