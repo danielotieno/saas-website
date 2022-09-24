@@ -46,7 +46,7 @@ const EVENT_DATA = [
     title: 'Donors Visit',
     date: 'Oct',
     location: 'SAAS Office',
-    link: '/',
+    link: '/donors-visit',
   },
 ];
 

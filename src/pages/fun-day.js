@@ -29,7 +29,7 @@ const FunDay = () => {
                 We thank all donors who made this events to be a successful one.
               </p>
             </Row>
-            <Row className='pb-20'>
+            <Row>
               <p>
                 This year we awarded the best students for the years 2020 and
                 2021. Normally this activity is done annually but due to covid
@@ -37,7 +37,7 @@ const FunDay = () => {
                 home for more than 8months. Hence the changes.
               </p>
             </Row>
-            <Row className='pb-20'>
+            <Row>
               <p>
                 The best students received trophies and shopping vouchers. This
                 is to motivate them and also to encourage other students to put
