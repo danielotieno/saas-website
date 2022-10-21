@@ -48,9 +48,11 @@ const DonationPage = () => {
           </Col>
         </Row>
         <Row>
-          <Col md={12} lg={6}>
-            <h3 className='mb-2'>Donate using JustGiving</h3>
-            <p>You can donate money to the organisation by:</p>
+          <Col md={12} lg={12}>
+            <h3 className='mb-2 text-center'>Donate using JustGiving</h3>
+            <p className='text-center'>
+              You can donate money to the organisation by:
+            </p>
             <p>
               Donating via JustGiving using your credit / debit card by clicking
               on the JustGiving image below and selecting a single €420 payment
@@ -66,20 +68,6 @@ const DonationPage = () => {
                   alt='Donation'
                 />
               </a>
-            </p>
-          </Col>
-          <Col md={12} lg={6}>
-            <h3 className='mb-2'>Donate Using Bank</h3>
-            <p>
-              Lodging a single payment to the SAAS bank account (details below)
-            </p>
-            <p>
-              Sponsor An African Scholar, Bank of Ireland, Montrose Place,
-              Dublin 4 <br />
-              <strong>Sort Code:</strong> 90 13 51 <br />{' '}
-              <strong>Account:</strong> 27871287 <br />
-              <strong>IBAN:</strong> IE55 BOFI 9013 5127 8712 87 <br />
-              <strong>BIC:</strong> BOFIIE2D
             </p>
           </Col>
         </Row>
