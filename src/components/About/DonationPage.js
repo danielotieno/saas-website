@@ -8,7 +8,7 @@ const DonationPage = () => {
       <Container>
         <Row>
           <Col>
-            <h3 className='mb-2'>Support Our Work</h3>
+            <h3 className='mb-2 text-center'>Support Our Work</h3>
             <p>
               SAAS requires your support in order to continue providing
               education to deserving children in Mombasa. In addition to
@@ -35,7 +35,7 @@ const DonationPage = () => {
         </Row>
         <Row>
           <Col>
-            <h3 className='mt-4 mb-2'>Sponsor a Student</h3>
+            <h3 className='mt-4 mb-2 text-center'>Sponsor a Student</h3>
             <p className='pb-40'>
               SAAS requires your support in order to continue providing
               education to deserving children in Mombasa. School fees cost €420
