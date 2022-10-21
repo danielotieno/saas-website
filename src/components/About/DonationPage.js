@@ -53,12 +53,12 @@ const DonationPage = () => {
             <p className='text-center'>
               You can donate money to the organisation by:
             </p>
-            <p>
+            <p className='text-center'>
               Donating via JustGiving using your credit / debit card by clicking
               on the JustGiving image below and selecting a single €420 payment
               or monthly €35 payment or any amount you can afford
             </p>
-            <p>
+            <p className='text-center'>
               <a
                 href='https://link.justgiving.com/v1/charity/donate/charityId/3064215?tipScheme=TipJar2.1&reference=givingcheckout_tj21'
                 target='_blank'
