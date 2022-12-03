@@ -44,6 +44,7 @@ const EVENT_DATA = [
   {
     image: DonorVisit,
     title: 'Donor Visits',
+    date: 'Oct',
     location: 'SAAS Office',
     link: '/all-donor-visits',
   },

@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import EventCard from './EventCard';
 import bgImage from '../../assets/images/shapes/event-map-1-2.png';
-import EVENT_DATA from '../../data/events';
+import VISITS_DATA from '../../data/visits';
 
 const DonorsPage = () => {
   return (
@@ -18,8 +18,8 @@ const DonorsPage = () => {
           </Col>
         </Row>
         <div className='event-grid'>
-          {EVENT_DATA.map((event, index) => (
-            <EventCard data={event} key={`event-card-key-${index}`} />
+          {VISITS_DATA.map((visit, index) => (
+            <EventCard data={visit} key={`event-card-key-${index}`} />
           ))}
         </div>
       </Container>
