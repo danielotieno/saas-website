@@ -12,11 +12,11 @@ const DonorsVisit = () => {
     <Layout pageTitle='SAAS Events Page'>
       <Header />
       <StickyHeader extraClassName='stricky-header-two' />
-      <PageHeader title='Donors Visit' crumbTitle='Donors' />
+      <PageHeader title='Donor Visit 2021' crumbTitle='2021' />
       <>
         <section className='event-details pt-120'>
           <Container>
-            <h3>DONORS VISIT</h3>
+            <h3>Donor Visit 2021</h3>
             <Row className='pb-20'>
               <p>
                 In October 2021, we were lucky to host guests from Ireland,
