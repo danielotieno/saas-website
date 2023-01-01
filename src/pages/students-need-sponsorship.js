@@ -11,7 +11,7 @@ const WaitingStudentList = () => {
   return (
     <>
       <GatsbySeo
-        title='SAAS | Sponsor Student Charity'
+        title='Waiting Students'
         description='SAAS Charity | Below is a list of the students on our reserved list awaiting sponsors. If you are interested in sponsoring any of these students kindly email us at info@saas.ie. Thank you.'
         canonical='https://www.canonical.ie/'
         openGraph={{

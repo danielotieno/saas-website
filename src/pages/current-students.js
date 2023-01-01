@@ -8,7 +8,7 @@ import StickyHeader from '../components/Navigation/StickyHeader';
 
 const CurrentStudentsList = () => {
   return (
-    <Layout pageTitle='Our students who have sponsorship'>
+    <Layout pageTitle='Current Students'>
       <Header />
       <StickyHeader extraClassName='stricky-header-two' />
       <PageHeader title='Our Current Students' crumbTitle='Current' />

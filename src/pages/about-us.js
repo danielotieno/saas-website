@@ -11,7 +11,7 @@ const About = () => {
   return (
     <>
       <GatsbySeo
-        title='SAAS | About SAAS'
+        title='About SAAS'
         description='SAAS | SAAS Charity runs a sponsorship programme which enables Kenyan students from marginalised communities to attend post primary education. This sponsorship is coupled with free student services such as counselling and career guidance.'
         canonical='https://www.canonical.ie/'
         openGraph={{

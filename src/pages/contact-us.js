@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <>
       <GatsbySeo
-        title='SAAS | Contact SAAS'
+        title='Contact SAAS'
         description='SAAS Charity | You do not like forms? Email us at info@saas.ie with any question or inquiries or call +353 (0)87 2803823 / 254 (0) 41 476396 . We would be happy to answer your questions.'
         canonical='https://www.canonical.ie/'
         openGraph={{

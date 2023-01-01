@@ -9,7 +9,7 @@ import StickyHeader from '../components/Navigation/StickyHeader';
 // markup
 const Events = () => {
   return (
-    <Layout pageTitle='SAAS Events Page'>
+    <Layout pageTitle='Events'>
       <Header />
       <StickyHeader extraClassName='stricky-header-two' />
       <PageHeader title='Our Events' crumbTitle='Events' />

@@ -9,7 +9,7 @@ import NewsPage from '../components/News/NewsPage';
 // markup
 const News = () => {
   return (
-    <Layout pageTitle='SAAS Newsletters Page'>
+    <Layout pageTitle='News'>
       <Header />
       <StickyHeader extraClassName='stricky-header-two' />
       <PageHeader title='SAAS Newsletters' crumbTitle='News' />

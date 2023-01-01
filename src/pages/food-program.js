@@ -9,7 +9,7 @@ import StickyHeader from '../components/Navigation/StickyHeader';
 
 const FoodProgram = () => {
   return (
-    <Layout pageTitle='SAAS Events Page'>
+    <Layout pageTitle='Food Program'>
       <Header />
       <StickyHeader extraClassName='stricky-header-two' />
       <PageHeader title='Food Program' crumbTitle='Food Program' />
