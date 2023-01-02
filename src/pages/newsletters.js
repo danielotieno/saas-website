@@ -4,19 +4,19 @@ import Header from '../components/Navigation/Header';
 import Layout from '../components/Navigation/Layout';
 import PageHeader from '../components/Navigation/PageHeader';
 import StickyHeader from '../components/Navigation/StickyHeader';
-import NewsPage from '../components/News/NewsPage';
+import NewsLetterPage from '../components/News/NewsLetterPage';
 
 // markup
-const News = () => {
+const NewsLetter = () => {
   return (
-    <Layout pageTitle='News'>
+    <Layout pageTitle='NewsLetters'>
       <Header />
       <StickyHeader extraClassName='stricky-header-two' />
-      <PageHeader title='News' crumbTitle='Home' crumbLink='/' />
-      <NewsPage />
+      <PageHeader title='Newsletters' crumbTitle='News' crumbLink='/news' />
+      <NewsLetterPage />
       <Footer />
     </Layout>
   );
 };
 
-export default News;
+export default NewsLetter;

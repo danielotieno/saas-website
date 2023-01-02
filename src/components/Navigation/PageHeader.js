@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import pageHeaderBg from '../../assets/images/backgrounds/saas-bg.png';
 
-const PageHeader = ({ title, crumbTitle }) => {
+const PageHeader = ({ title, crumbTitle, crumbLink }) => {
   return (
     <section className='page-header'>
       <div
@@ -13,11 +13,7 @@ const PageHeader = ({ title, crumbTitle }) => {
         <h2>{title}</h2>
         <ul className='thm-breadcrumb list-unstyled '>
           <li>
-            <Link to='/'>Home</Link>
-          </li>
-          <li>-</li>
-          <li>
-            <span>{crumbTitle}</span>
+            <Link to={`${crumbLink}`}>{crumbTitle}</Link>
           </li>
         </ul>
       </div>

@@ -2933,7 +2933,9 @@ h6 {
 
 .mobile-nav__language select,
 .mobile-nav__language
-  .bootstrap-select:not([class*='col-']):not([class*='form-control']):not(.input-group-btn) {
+  .bootstrap-select:not([class*='col-']):not([class*='form-control']):not(
+    .input-group-btn
+  ) {
   width: 70px;
 }
 .mobile-nav__language select {

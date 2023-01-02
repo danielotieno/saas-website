@@ -13,13 +13,13 @@ const NewsCard = ({ data }) => {
                 src={image}
                 alt='image'
                 loading='lazy'
-                height={130}
-                width={130}
+                height={150}
+                width={150}
               />
             </div>
           </div>
           <div className='event-card-content'>
-            <h3>
+            <h3 className=''>
               <Link to={link}>{title}</Link>
             </h3>
           </div>

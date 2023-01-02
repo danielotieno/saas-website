@@ -13,7 +13,7 @@ const NewsPage = () => {
         <Row className=' align-items-start align-items-md-center flex-column flex-md-row mb-60'>
           <Col className='text-center mt-60'>
             <div className='block-title'>
-              <h3 className='event-title'>Checkout Our Latest News.</h3>
+              <h3 className='event-title'>Our Latest News</h3>
             </div>
           </Col>
         </Row>
