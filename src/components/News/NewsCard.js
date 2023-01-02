@@ -13,8 +13,8 @@ const NewsCard = ({ data }) => {
                 src={image}
                 alt='image'
                 loading='lazy'
-                height={150}
-                width={150}
+                height={180}
+                width={180}
               />
             </div>
           </div>
