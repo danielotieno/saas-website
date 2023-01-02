@@ -1,7 +1,7 @@
 import { Link } from 'gatsby';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import welcomeImage from '../../assets/images/resources/abt.jpg';
+import { StaticImage } from 'gatsby-plugin-image';
 
 const AboutUs = () => {
   return (
@@ -10,11 +10,13 @@ const AboutUs = () => {
         <Row>
           <Col xl={6}>
             <div className='about-two__image'>
-              <img
-                src={welcomeImage}
+              <StaticImage
+                src='../../assets/images/resources/abt.jpg'
                 className='rounded-lg'
-                alt=''
+                alt='Welcome'
                 width='480'
+                height='650'
+                placeholder='blurred'
               />
             </div>
           </Col>
