@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { Container, Row } from 'react-bootstrap';
-import DonorsVisitGallery from '../components/EventGallery/DonorsVisitGallery';
-import Footer from '../components/Navigation/Footer';
-import Header from '../components/Navigation/Header';
-import Layout from '../components/Navigation/Layout';
-import PageHeader from '../components/Navigation/PageHeader';
-import StickyHeader from '../components/Navigation/StickyHeader';
+import DonorsVisitGallery from '../../../components/EventGallery/DonorsVisitGallery';
+import Footer from '../../../components/Navigation/Footer';
+import Header from '../../../components/Navigation/Header';
+import Layout from '../../../components/Navigation/Layout';
+import PageHeader from '../../../components/Navigation/PageHeader';
+import StickyHeader from '../../../components/Navigation/StickyHeader';
 
 const DonorsVisit = () => {
   return (

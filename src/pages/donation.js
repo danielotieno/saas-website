@@ -26,10 +26,10 @@ const Donation = () => {
           ],
         }}
       />
-      <Layout pageTitle='Donation Page'>
+      <Layout pageTitle='Donate Now'>
         <Header />
         <StickyHeader extraClassName='stricky-header-two' />
-        <PageHeader title='Donate Now' crumbTitle='Donation' />
+        <PageHeader title='Make a difference' crumbTitle='Home' crumbLink='/' />
         <DonationPage />
         <Footer />
       </Layout>

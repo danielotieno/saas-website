@@ -29,13 +29,10 @@ const NavLinks = ({ extraClassName }) => {
         </ul>
       </li>
       <li>
-        <Link to='/events'>Events</Link>
-      </li>
-      <li>
         <Link to='/news'>News</Link>
       </li>
       <li>
-        <Link to='/donation'>Support SAAS</Link>
+        <Link to='/events'>Events</Link>
       </li>
       <li>
         <Link to='/contact-us'>Contact Us</Link>

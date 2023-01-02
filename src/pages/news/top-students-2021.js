@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { Container, Row } from 'react-bootstrap';
-import TopStudentsGallery from '../components/EventGallery/TopStudentsGallery';
-import Footer from '../components/Navigation/Footer';
-import Header from '../components/Navigation/Header';
-import Layout from '../components/Navigation/Layout';
-import PageHeader from '../components/Navigation/PageHeader';
-import StickyHeader from '../components/Navigation/StickyHeader';
+import TopStudentsGallery from '../../components/EventGallery/TopStudentsGallery';
+import Footer from '../../components/Navigation/Footer';
+import Header from '../../components/Navigation/Header';
+import Layout from '../../components/Navigation/Layout';
+import PageHeader from '../../components/Navigation/PageHeader';
+import StickyHeader from '../../components/Navigation/StickyHeader';
 
 const TopStudents = () => {
   return (

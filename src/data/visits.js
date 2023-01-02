@@ -6,7 +6,7 @@ const VISITS_DATA = [
     title: 'Donor Visits 2021',
     date: 'Oct',
     location: 'SAAS Office',
-    link: '/donor-visits-2021',
+    link: '/news/donor-visits/2021',
   },
 ];
 
