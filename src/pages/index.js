@@ -7,6 +7,7 @@ import Footer from '../components/Navigation/Footer';
 import Header from '../components/Navigation/Header';
 import Layout from '../components/Navigation/Layout';
 import StickyHeader from '../components/Navigation/StickyHeader';
+import NewYear from '../components/NewYear';
 import Partners from '../components/Partners';
 import Service from '../components/Service';
 import AllStories from '../components/Stories/AllStories';
@@ -37,6 +38,7 @@ const IndexPage = () => {
         <Header />
         <StickyHeader extraClassName='stricky-header-two' />
         <BannerSlider />
+        <NewYear />
         <Service />
         <AboutUs />
         <VideoCard />
