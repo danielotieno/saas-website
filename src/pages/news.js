@@ -12,7 +12,7 @@ const News = () => {
     <Layout pageTitle='News'>
       <Header />
       <StickyHeader extraClassName='stricky-header-two' />
-      <PageHeader title='SAAS News' crumbTitle='News' />
+      <PageHeader title='News' crumbTitle='News' />
       <NewsPage />
       <Footer />
     </Layout>

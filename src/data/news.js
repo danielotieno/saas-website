@@ -11,8 +11,14 @@ import Nov19 from '../assets/images/news/Nov19.pdf';
 import Sep21 from '../assets/images/news/Sep21.pdf';
 import Feb22 from '../assets/images/news/Feb22.pdf';
 import Jun22 from '../assets/images/news/June22.pdf';
+import NewsLetters from '../assets/images/news/news.jpeg';
 
 const NEWS_DATA = [
+  {
+    image: NewsLetters,
+    title: 'Newsletters',
+    link: '/newsletters',
+  },
   {
     title: 'June 2022 - Oct 2022',
     link: Jun22,
