@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Container, Row } from 'react-bootstrap';
-import DonorsVisitGallery from '../../../components/EventGallery/DonorsVisitGallery';
+import DonorsVisitGallery from '../../../components/Gallery/DonorsVisitGallery';
 import Footer from '../../../components/Navigation/Footer';
 import Header from '../../../components/Navigation/Header';
 import Layout from '../../../components/Navigation/Layout';
