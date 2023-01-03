@@ -12,7 +12,12 @@ const GalleryCard = ({ image }) => {
           className='img-popup'
           data-attribute='SRL'
           aria-label='open image'>
-          <img src={image} className='img-fluid sr-only' alt='' />
+          <img
+            src={image}
+            className='img-fluid sr-only'
+            alt='Gallery Image'
+            loading='lazy'
+          />
           <i className='fal fa-plus'></i>
         </a>
       </div>

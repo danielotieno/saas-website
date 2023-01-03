@@ -1,18 +1,18 @@
 import * as React from 'react';
 import { Container, Row } from 'react-bootstrap';
-import GirlsDayGallery from '../components/Gallery/GirlsDayGallery';
-import Footer from '../components/Navigation/Footer';
-import Header from '../components/Navigation/Header';
-import Layout from '../components/Navigation/Layout';
-import PageHeader from '../components/Navigation/PageHeader';
-import StickyHeader from '../components/Navigation/StickyHeader';
+import GirlsDayGallery from '../../components/Gallery/GirlsDayGallery';
+import Footer from '../../components/Navigation/Footer';
+import Header from '../../components/Navigation/Header';
+import Layout from '../../components/Navigation/Layout';
+import PageHeader from '../../components/Navigation/PageHeader';
+import StickyHeader from '../../components/Navigation/StickyHeader';
 
 const GirlsForum = () => {
   return (
     <Layout pageTitle='Girls Forum'>
       <Header />
       <StickyHeader extraClassName='stricky-header-two' />
-      <PageHeader title='Girls Forum' crumbTitle='Girls Forum' />
+      <PageHeader title='Girls Forum' crumbTitle='Events' crumbLink='/events' />
       <>
         <section className='event-details pt-120'>
           <Container>

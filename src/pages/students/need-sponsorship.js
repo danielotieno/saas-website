@@ -1,11 +1,11 @@
 import { GatsbySeo } from 'gatsby-plugin-next-seo';
 import React from 'react';
-import Footer from '../components/Navigation/Footer';
-import Header from '../components/Navigation/Header';
-import Layout from '../components/Navigation/Layout';
-import PageHeader from '../components/Navigation/PageHeader';
-import StickyHeader from '../components/Navigation/StickyHeader';
-import WaitingList from '../components/Waiting/WaitingList';
+import Footer from '../../components/Navigation/Footer';
+import Header from '../../components/Navigation/Header';
+import Layout from '../../components/Navigation/Layout';
+import PageHeader from '../../components/Navigation/PageHeader';
+import StickyHeader from '../../components/Navigation/StickyHeader';
+import WaitingList from '../../components/Waiting/WaitingList';
 
 const WaitingStudentList = () => {
   return (
@@ -29,7 +29,11 @@ const WaitingStudentList = () => {
       <Layout pageTitle='All Students in Waiting List Page'>
         <Header />
         <StickyHeader extraClassName='stricky-header-two' />
-        <PageHeader title='Students Need Sponsorship' crumbTitle='Waiting' />
+        <PageHeader
+          title='Students Need Sponsorship'
+          crumbTitle='Home'
+          crumbLink='/'
+        />
         <WaitingList />
         <Footer />
       </Layout>

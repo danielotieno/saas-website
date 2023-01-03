@@ -8,21 +8,21 @@ const EVENT_DATA = [
     title: 'Parents Meeting',
     date: 'Apr',
     location: 'SAAS Office',
-    link: '/parents-meeting',
+    link: '/events/parents-meeting',
   },
   {
     image: GirlsForum,
     title: 'Girls Forum',
     date: 'Dec',
     location: 'SAAS Office',
-    link: '/girls-forum',
+    link: '/events/girls-forum',
   },
   {
     image: FunDay,
     title: 'Fun Day & Awards',
     date: 'Apr',
     location: 'SAAS Office',
-    link: '/fun-day',
+    link: '/events/fun-day',
   },
 ];
 

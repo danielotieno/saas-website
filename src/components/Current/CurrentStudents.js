@@ -61,7 +61,7 @@ const CurrentStudents = () => {
         </Row>
 
         <div className='mt-4 text-center'>
-          <Link className='students-btn rounded-pill' to='/current-students'>
+          <Link className='students-btn rounded-pill' to='/students/current'>
             Explore Our Current Students
           </Link>
         </div>

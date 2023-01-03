@@ -29,7 +29,7 @@ const About = () => {
       <Layout pageTitle='About SAAS Charity'>
         <Header />
         <StickyHeader extraClassName='stricky-header-two' />
-        <PageHeader title='About Us' crumbTitle='About' />
+        <PageHeader title='About Us' crumbTitle='Home' crumbLink='/' />
         <AboutPage />
         <Footer />
       </Layout>

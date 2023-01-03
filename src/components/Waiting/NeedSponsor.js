@@ -65,7 +65,7 @@ const NeedSponsor = () => {
         <div className='mt-4 text-center'>
           <Link
             className='students-btn rounded-pill'
-            to='/students-need-sponsorship'>
+            to='/students/need-sponsorship'>
             Explore More Needy Students
           </Link>
         </div>

@@ -12,7 +12,7 @@ const FoodProgram = () => {
     <Layout pageTitle='Food Program'>
       <Header />
       <StickyHeader extraClassName='stricky-header-two' />
-      <PageHeader title='Food Program' crumbTitle='Food Program' />
+      <PageHeader title='Food Program' crumbTitle='News' crumbLink='/news' />
       <>
         <section className='event-details pt-120'>
           <Container>

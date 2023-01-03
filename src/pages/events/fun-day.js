@@ -1,18 +1,18 @@
 import * as React from 'react';
 import { Container, Row } from 'react-bootstrap';
-import FunDayGallery from '../components/Gallery/FunDayGallery';
-import Footer from '../components/Navigation/Footer';
-import Header from '../components/Navigation/Header';
-import Layout from '../components/Navigation/Layout';
-import PageHeader from '../components/Navigation/PageHeader';
-import StickyHeader from '../components/Navigation/StickyHeader';
+import FunDayGallery from '../../components/Gallery/FunDayGallery';
+import Footer from '../../components/Navigation/Footer';
+import Header from '../../components/Navigation/Header';
+import Layout from '../../components/Navigation/Layout';
+import PageHeader from '../../components/Navigation/PageHeader';
+import StickyHeader from '../../components/Navigation/StickyHeader';
 
 const FunDay = () => {
   return (
     <Layout pageTitle='Fun Day'>
       <Header />
       <StickyHeader extraClassName='stricky-header-two' />
-      <PageHeader title='Fun Day' crumbTitle='Fun Day' />
+      <PageHeader title='Fun Day' crumbTitle='Events' crumbLink='/events' />
       <>
         <section className='event-details pt-120'>
           <Container>

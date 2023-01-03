@@ -1,18 +1,22 @@
 import * as React from 'react';
 import { Container, Row } from 'react-bootstrap';
-import ParentsGallery from '../components/Gallery/ParentsGallery';
-import Footer from '../components/Navigation/Footer';
-import Header from '../components/Navigation/Header';
-import Layout from '../components/Navigation/Layout';
-import PageHeader from '../components/Navigation/PageHeader';
-import StickyHeader from '../components/Navigation/StickyHeader';
+import ParentsGallery from '../../components/Gallery/ParentsGallery';
+import Footer from '../../components/Navigation/Footer';
+import Header from '../../components/Navigation/Header';
+import Layout from '../../components/Navigation/Layout';
+import PageHeader from '../../components/Navigation/PageHeader';
+import StickyHeader from '../../components/Navigation/StickyHeader';
 
 const ParentsMeeting = () => {
   return (
     <Layout pageTitle='Parents Meeting'>
       <Header />
       <StickyHeader extraClassName='stricky-header-two' />
-      <PageHeader title='Parents Meeting' crumbTitle='Parents Meeting' />
+      <PageHeader
+        title='Parents Meeting'
+        crumbTitle='Events'
+        crumbLink='/events'
+      />
       <>
         <section className='event-details pt-120'>
           <Container>

@@ -30,7 +30,7 @@ const Contact = () => {
       <Layout pageTitle='Contact Us Page'>
         <Header />
         <StickyHeader extraClassName='stricky-header-two' />
-        <PageHeader title='Contact Us' crumbTitle='Contact' />
+        <PageHeader title='Contact Us' crumbTitle='Home' crumbLink='/' />
         <ContactForm />
         <GoogleMap extraClass='contact' />
         <Footer />

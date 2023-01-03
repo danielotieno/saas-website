@@ -12,7 +12,11 @@ const TopStudents = () => {
     <Layout pageTitle='Top Student'>
       <Header />
       <StickyHeader extraClassName='stricky-header-two' />
-      <PageHeader title='Top Students 2021' crumbTitle='Top Students' />
+      <PageHeader
+        title='Top Students 2021'
+        crumbTitle='News'
+        crumbLink='/news'
+      />
       <>
         <section className='event-details pt-120'>
           <Container>
