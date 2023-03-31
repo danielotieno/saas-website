@@ -21,10 +21,12 @@ const NavLinks = ({ extraClassName }) => {
         </button>
         <ul className='dropdown-list'>
           <li>
-            <Link to='/students-need-sponsorship'>Need Sponsorship</Link>
+            <Link to='/students/students-need-sponsorship'>
+              Need Sponsorship
+            </Link>
           </li>
           <li>
-            <Link to='/current-students'>Current Students</Link>
+            <Link to='/students/current-students'>Current Students</Link>
           </li>
         </ul>
       </li>
