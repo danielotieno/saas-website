@@ -12,8 +12,13 @@ import Sep21 from '../assets/images/news/Sep21.pdf';
 import Feb22 from '../assets/images/news/Feb22.pdf';
 import Jun22 from '../assets/images/news/June22.pdf';
 import Nov22 from '../assets/images/news/Nov22.pdf';
+import Mar23 from '../assets/images/news/March23.pdf';
 
 const NEWS_LETTERS_DATA = [
+  {
+    title: 'March 2023 - Aug 2023',
+    link: Mar23,
+  },
   {
     title: 'Nov 2022 - Feb 2023',
     link: Nov22,
