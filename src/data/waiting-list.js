@@ -26,7 +26,7 @@ const WAITING_STUDENTS = [
     title: 'Alvin',
     text: 'Alvin is 15 years of age. he is a very hardworking young boy. Currently, he is in form 1 and he will be completing her secondary level in 2025.',
     link: AlvinPdf,
-    isFeatured: false,
+    isFeatured: true,
   },
 ];
 
