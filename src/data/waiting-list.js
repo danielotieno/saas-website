@@ -4,6 +4,10 @@ import Helton from '../assets/images/waiting/helton.jpg';
 import HeltonPdf from '../assets/images/waiting/helton.pdf';
 import Alvin from '../assets/images/waiting/alvin.jpg';
 import AlvinPdf from '../assets/images/waiting/alvin.pdf';
+import Rukia from '../assets/images/waiting/rukia.jpeg';
+import RukiaPdf from '../assets/images/waiting/rukia.pdf';
+import Prilly from '../assets/images/waiting/prilly.jpeg';
+import PrillyPdf from '../assets/images/waiting/prilly.pdf';
 
 const WAITING_STUDENTS = [
   {
@@ -26,6 +30,20 @@ const WAITING_STUDENTS = [
     title: 'Alvin',
     text: 'Alvin is 15 years of age. he is a very hardworking young boy. Currently, he is in form 1 and he will be completing her secondary level in 2025.',
     link: AlvinPdf,
+    isFeatured: true,
+  },
+  {
+    image: Rukia,
+    title: 'Rukia',
+    text: 'Rukia is in form two at Butere Girls Secondary School and will complete her high school level in 2026',
+    link: RukiaPdf,
+    isFeatured: true,
+  },
+  {
+    image: Prilly,
+    title: 'Prilly',
+    text: 'Prilly is 14 years of age and the last born in a family of 3 children: two girls and a boy',
+    link: PrillyPdf,
     isFeatured: true,
   },
 ];
