@@ -14,8 +14,6 @@ import Leah from '../assets/images/current/Leah.jpg';
 import LeahPdf from '../assets/images/current/Leah.pdf';
 import Sila from '../assets/images/current/Sila.jpg';
 import SilaPdf from '../assets/images/current/Sila.pdf';
-import Zulfa from '../assets/images/current/Zulfa.png';
-import ZulfaPdf from '../assets/images/current/Zulfa.pdf';
 import Josephat from '../assets/images/current/Josephat.png';
 import JosephatPdf from '../assets/images/current/Josephat.pdf';
 import Juma from '../assets/images/current/Juma.png';
@@ -31,9 +29,9 @@ const CURRENT_STUDENTS = [
   {
     image: Graham,
     title: 'Graham',
-    text: 'Graham is 19 years of age. He is currently in his 2nd year semester 1 at Chuka university.',
+    text: 'Graham is 21 years of age. He is in his 3rd year, semester 2, at Chuka University. He is undertaking a degree in Computer Science.',
     link: GrahamPdf,
-    isFeatured: false,
+    isFeatured: true,
   },
   {
     image: Zilpa,
@@ -49,13 +47,7 @@ const CURRENT_STUDENTS = [
     link: IddPdf,
     isFeatured: true,
   },
-  {
-    image: Zulfa,
-    title: 'Zulfa',
-    text: 'Zulfa is a full-time border. Currently, she is in form 3. She will finish high school in November 2023',
-    link: ZulfaPdf,
-    isFeatured: true,
-  },
+
   {
     image: Kemmy,
     title: 'Kemmy',
@@ -73,7 +65,7 @@ const CURRENT_STUDENTS = [
   {
     image: Amina,
     title: 'Amina',
-    text: 'Amina is currently in form 4 and a full-time border in High school. She will be finishing high school level in 2022.',
+    text: 'Amina, a resilient and diligent student, is currently a first-year student at Pwani University pursuing a Bachelor of Arts in Literature.',
     link: AminaPdf,
     isFeatured: false,
   },
