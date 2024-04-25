@@ -1,5 +1,3 @@
-import Abraham from '../assets/images/current/Abraham.jpg';
-import AbrahamPdf from '../assets/images/current/Abraham.pdf';
 import Amina from '../assets/images/current/Amina.jpg';
 import AminaPdf from '../assets/images/current/Amina.pdf';
 import Graham from '../assets/images/current/Graham.jpg';
@@ -14,8 +12,6 @@ import Kemmy from '../assets/images/current/Kemmy.jpg';
 import KemmyPdf from '../assets/images/current/Kemmy.pdf';
 import Leah from '../assets/images/current/Leah.jpg';
 import LeahPdf from '../assets/images/current/Leah.pdf';
-import Patrick from '../assets/images/current/Patrick.jpg';
-import PatrickPdf from '../assets/images/current/Patrick.pdf';
 import Sila from '../assets/images/current/Sila.jpg';
 import SilaPdf from '../assets/images/current/Sila.pdf';
 import Zulfa from '../assets/images/current/Zulfa.png';
@@ -24,6 +20,10 @@ import Josephat from '../assets/images/current/Josephat.png';
 import JosephatPdf from '../assets/images/current/Josephat.pdf';
 import Juma from '../assets/images/current/Juma.png';
 import JumaPdf from '../assets/images/current/Juma.pdf';
+import Zilpa from '../assets/images/current/Zilpa.jpeg';
+import ZilpaPdf from '../assets/images/current/Zilpa.pdf';
+import Idd from '../assets/images/current/Idd.jpeg';
+import IddPdf from '../assets/images/current/Idd.pdf';
 
 const CURRENT_STUDENTS = [
   {
@@ -32,6 +32,20 @@ const CURRENT_STUDENTS = [
     text: 'Graham is 19 years of age. He is currently in his 2nd year semester 1 at Chuka university.',
     link: GrahamPdf,
     isFeatured: false,
+  },
+  {
+    image: Zilpa,
+    title: 'Zilpa',
+    text: 'Zilpa completed her primary school in 2023. Currently, she is in form one at Nyakach Girls Secondary School.',
+    link: ZilpaPdf,
+    isFeatured: true,
+  },
+  {
+    image: Idd,
+    title: 'Idd',
+    text: 'Idd is 14 years of age. He aspires to become a Doctor in the future.',
+    link: IddPdf,
+    isFeatured: true,
   },
   {
     image: Zulfa,
@@ -61,13 +75,7 @@ const CURRENT_STUDENTS = [
     link: AminaPdf,
     isFeatured: false,
   },
-  {
-    image: Abraham,
-    title: 'Abraham',
-    text: 'Abraham is 20 years of age; he was born on 7th November 2002. He is currently in year 2 at the Technical University of Mombasa.',
-    link: AbrahamPdf,
-    isFeatured: true,
-  },
+
   {
     image: Iddah,
     title: 'Iddah',
@@ -81,7 +89,7 @@ const CURRENT_STUDENTS = [
     title: 'Patrick',
     text: 'Patrick is 19 years of age, He is currently in university and undertaking a Bachelor of Science.',
     link: PatrickPdf,
-    isFeatured: true,
+    isFeatured: false,
   },
   {
     image: Kelvin,
