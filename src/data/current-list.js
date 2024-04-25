@@ -24,6 +24,8 @@ import Zilpa from '../assets/images/current/Zilpa.jpeg';
 import ZilpaPdf from '../assets/images/current/Zilpa.pdf';
 import Idd from '../assets/images/current/Idd.jpeg';
 import IddPdf from '../assets/images/current/Idd.pdf';
+import Patrick from '../assets/images/current/Patrick.jpg';
+import PatrickPdf from '../assets/images/current/Patrick.pdf';
 
 const CURRENT_STUDENTS = [
   {
