@@ -4,20 +4,14 @@ import Graham from '../assets/images/current/Graham.jpg';
 import GrahamPdf from '../assets/images/current/Graham.pdf';
 import Halima from '../assets/images/current/Halima.jpg';
 import HalimaPdf from '../assets/images/current/Halima.pdf';
-import Iddah from '../assets/images/current/Iddah.jpg';
-import IddahPdf from '../assets/images/current/Iddah.pdf';
 import Kelvin from '../assets/images/current/Kelvin.jpg';
 import KelvinPdf from '../assets/images/current/Kelvin.pdf';
 import Kemmy from '../assets/images/current/Kemmy.jpg';
 import KemmyPdf from '../assets/images/current/Kemmy.pdf';
 import Leah from '../assets/images/current/Leah.jpg';
 import LeahPdf from '../assets/images/current/Leah.pdf';
-import Sila from '../assets/images/current/Sila.jpg';
-import SilaPdf from '../assets/images/current/Sila.pdf';
 import Josephat from '../assets/images/current/Josephat.png';
 import JosephatPdf from '../assets/images/current/Josephat.pdf';
-import Juma from '../assets/images/current/Juma.png';
-import JumaPdf from '../assets/images/current/Juma.pdf';
 import Zilpa from '../assets/images/current/Zilpa.jpeg';
 import ZilpaPdf from '../assets/images/current/Zilpa.pdf';
 import Idd from '../assets/images/current/Idd.jpeg';
@@ -51,14 +45,14 @@ const CURRENT_STUDENTS = [
   {
     image: Kemmy,
     title: 'Kemmy',
-    text: 'Kemmy is 18 years of age. Thanks to the SAAS organization, She is in form 2 and full-time border in high school.',
+    text: 'Kemmy, a remarkable and promising 18-year-old, is currently in Form 4 as a full-time high school border student',
     link: KemmyPdf,
     isFeatured: true,
   },
   {
     image: Josephat,
     title: 'Josephat',
-    text: 'Josephat is 20 years of age. Josephat complete his secondary school in March 2022 and scored a C+',
+    text: 'Josephat, a resilient and determined 22-year-old. He is undertaking Bachelor of Science in public management and development.',
     link: JosephatPdf,
     isFeatured: false,
   },
@@ -67,14 +61,6 @@ const CURRENT_STUDENTS = [
     title: 'Amina',
     text: 'Amina, a resilient and diligent student, is currently a first-year student at Pwani University pursuing a Bachelor of Arts in Literature.',
     link: AminaPdf,
-    isFeatured: false,
-  },
-
-  {
-    image: Iddah,
-    title: 'Iddah',
-    text: 'Idah is 19 years of age. She is currently in form 3 in a boarding school. Iddah is a hardworking young lady',
-    link: IddahPdf,
     isFeatured: false,
   },
 
@@ -88,14 +74,14 @@ const CURRENT_STUDENTS = [
   {
     image: Kelvin,
     title: 'Kelvin',
-    text: 'Kelvin is 21 years of age, he is currently studying telecommunication engineering.',
+    text: 'Kelvin is 23 years old. He is currently studying telecommunications and hopes to finish his course in December 2024',
     link: KelvinPdf,
     isFeatured: true,
   },
   {
     image: Leah,
     title: 'Leah',
-    text: 'Leah is 18 years old, she is currently a Form 4 full-time boarder at Kingwede Girl’s High School. She will be completing her secondary education in December 2022.',
+    text: 'Leah is 22 years old and a first-year student pursuing a Bachelor of Arts in Education. She is hardworking and has a bright future.',
     link: LeahPdf,
     isFeatured: false,
   },
@@ -103,23 +89,9 @@ const CURRENT_STUDENTS = [
   {
     image: Halima,
     title: 'Halima',
-    text: 'Halima is currently in form 4. She is an above average young lady with a bright future ahead.',
+    text: 'Halima completed high school in March 2022. She is currently at university pursuing a diploma in special needs education.',
     link: HalimaPdf,
     isFeatured: true,
-  },
-  {
-    image: Sila,
-    title: 'Sila',
-    text: 'Sila is 22 years of age. Thanks to SAAS, Sila was able to attend high school and he is currently university, studying bachelor in commerce.',
-    link: SilaPdf,
-    isFeatured: false,
-  },
-  {
-    image: Juma,
-    title: 'Juma',
-    text: 'Juma is 18 years of age. He is currently in form 4 and has a full-time border in high school.',
-    link: JumaPdf,
-    isFeatured: false,
   },
 ];
 
