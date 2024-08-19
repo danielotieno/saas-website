@@ -1,10 +1,10 @@
 import React from "react";
 import GalleryCard from "../../GalleryCard";
-import DV1 from "../../assets/images/events/donor-visit/maths-camp/2024/day-one/P1.jpeg";
-import DV2 from "../../assets/images/events/donor-visit/maths-camp/2024/day-one/P2.jpeg";
-import DV3 from "../../assets/images/events/donor-visit/maths-camp/2024/day-one/P3.jpeg";
-import DV4 from "../../assets/images/events/donor-visit/maths-camp/2024/day-one/P4.jpeg";
-import DV5 from "../../assets/images/events/donor-visit/maths-camp/2024/day-one/P5.jpeg";
+import DV1 from "../../../../assets/images/events/donor-visit/maths-camp/2024/day-one/P1.jpeg";
+import DV2 from "../../../../assets/images/events/donor-visit/maths-camp/2024/day-one/P2.jpeg";
+import DV3 from "../../../../assets/images/events/donor-visit/maths-camp/2024/day-one/P3.jpeg";
+import DV4 from "../../../../assets/images/events/donor-visit/maths-camp/2024/day-one/P4.jpeg";
+import DV5 from "../../../../assets/images/events/donor-visit/maths-camp/2024/day-one/P5.jpeg";
 
 const DayOneGallery = () => {
   return (
