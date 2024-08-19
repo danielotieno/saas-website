@@ -1,4 +1,4 @@
-import MathsCamp24 from "../assets/images/events/maths-camp.jpeg";
+import MathsCamp24 from "../../assets/images/events/maths-camp.jpeg";
 
 const MATHS_CAMP_2024_DATA = [
   {
