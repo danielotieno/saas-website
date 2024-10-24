@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { Container, Row } from 'react-bootstrap';
-import DonorsVisitGallery from '../../../components/Gallery/DonorsVisitGallery';
+import DonorVisit21 from '../../../components/Gallery/DonorVisits/DonorVisit21';
 import Footer from '../../../components/Navigation/Footer';
 import Header from '../../../components/Navigation/Header';
 import Layout from '../../../components/Navigation/Layout';
 import PageHeader from '../../../components/Navigation/PageHeader';
 import StickyHeader from '../../../components/Navigation/StickyHeader';
 
-const DonorsVisit = () => {
+const DonorsVisit21 = () => {
   return (
     <Layout pageTitle='Donor Visit'>
       <Header />
@@ -33,11 +33,11 @@ const DonorsVisit = () => {
             </Row>
           </Container>
         </section>
-        <DonorsVisitGallery />
+        <DonorVisit21 />
       </>
       <Footer />
     </Layout>
   );
 };
 
-export default DonorsVisit;
+export default DonorsVisit21;
