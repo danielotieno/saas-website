@@ -1,19 +1,19 @@
 import React from 'react';
 import GalleryCard from '../GalleryCard';
-import DV1 from '../../assets/images/events/donor-visit/2024/dv-1.jpg';
-import DV2 from '../../assets/images/events/donor-visit/2024/dv-2.jpg';
-import DV3 from '../../assets/images/events/donor-visit/2024/dv-3.jpg';
-import DV4 from '../../assets/images/events/donor-visit/2024/dv-4.jpg';
-import DV5 from '../../assets/images/events/donor-visit/2024/dv-5.jpg';
-import DV6 from '../../assets/images/events/donor-visit/2024/dv-6.jpg';
-import DV7 from '../../assets/images/events/donor-visit/2024/dv-7.jpg';
-import DV8 from '../../assets/images/events/donor-visit/2024/dv-8.jpg';
-import DV9 from '../../assets/images/events/donor-visit/2024/dv-9.jpg';
-import DV10 from '../../assets/images/events/donor-visit/2024/dv-10.jpg';
-import DV12 from '../../assets/images/events/donor-visit/2024/dv-12.jpg';
-import DV13 from '../../assets/images/events/donor-visit/2024/dv-13.jpg';
-import DV14 from '../../assets/images/events/donor-visit/2024/dv-14.jpg';
-import DV15 from '../../assets/images/events/donor-visit/2024/dv-15.jpg';
+import DV1 from '../../../assets/images/events/donor-visit/2024/dv-1.jpg';
+import DV2 from '../../../assets/images/events/donor-visit/2024/dv-2.jpg';
+import DV3 from '../../../assets/images/events/donor-visit/2024/dv-3.jpg';
+import DV4 from '../../../assets/images/events/donor-visit/2024/dv-4.jpg';
+import DV5 from '../../../assets/images/events/donor-visit/2024/dv-5.jpg';
+import DV6 from '../../../assets/images/events/donor-visit/2024/dv-6.jpg';
+import DV7 from '../../../assets/images/events/donor-visit/2024/dv-7.jpg';
+import DV8 from '../../../assets/images/events/donor-visit/2024/dv-8.jpg';
+import DV9 from '../../../assets/images/events/donor-visit/2024/dv-9.jpg';
+import DV10 from '../../../assets/images/events/donor-visit/2024/dv-10.jpg';
+import DV12 from '../../../assets/images/events/donor-visit/2024/dv-12.jpg';
+import DV13 from '../../../assets/images/events/donor-visit/2024/dv-13.jpg';
+import DV14 from '../../../assets/images/events/donor-visit/2024/dv-14.jpg';
+import DV15 from '../../../assets/images/events/donor-visit/2024/dv-15.jpg';
 
 const DonorVisit24 = () => {
   return (
