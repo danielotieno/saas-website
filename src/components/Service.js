@@ -7,7 +7,7 @@ import SERVICE_DATA from '../data/services';
 
 const Service = () => {
   const sliderOptions = {
-    slidesPerView: 3,
+    slidesPerView: 4,
     spaceBetween: 30,
     breakpoints: {
       0: {
@@ -31,11 +31,11 @@ const Service = () => {
         spaceBetween: 30,
       },
       1199: {
-        slidesPerView: 2,
+        slidesPerView: 3,
         spaceBetween: 30,
       },
       1200: {
-        slidesPerView: 3,
+        slidesPerView: 4,
         spaceBetween: 30,
       },
     },

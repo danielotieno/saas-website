@@ -6,6 +6,13 @@ import {
 
 const SERVICE_DATA = [
   {
+    extraClassName: 'background-primary',
+    image: image1,
+    title: 'Keep a Child in School this Christmas',
+    text: 'Start Donating',
+    link: 'https://www.justgiving.com/campaign/saas-charity',
+  },
+  {
     extraClassName: 'background-secondary',
     image: image1,
     title: 'Support a student',
