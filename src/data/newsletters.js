@@ -16,8 +16,13 @@ import Mar23 from '../assets/images/news/March23.pdf';
 import Aug23 from '../assets/images/news/Aug23.pdf';
 import Jan24 from '../assets/images/news/Jan24.pdf';
 import May24 from '../assets/images/news/May24.pdf';
+import Dec24 from '../assets/images/news/Dec24.pdf';
 
 const NEWS_LETTERS_DATA = [
+  {
+    title: 'Sept 2024 - Dec 2024',
+    link: Dec24,
+  },
   {
     title: 'May 2024 - Aug 2024',
     link: May24,
