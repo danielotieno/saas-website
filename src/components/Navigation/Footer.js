@@ -65,7 +65,11 @@ const Footer = () => {
           </ScrollLink>
           <p>© Copyright 2006 - Present </p>
           <div className='footer-social'>
-            <a href='#none' aria-label='twitter'>
+            <a
+              href='https://x.com/Saas_Kenya'
+              target='_blank'
+              rel='noopener noreferrer'
+              aria-label='twitter'>
               <i className='fab fa-twitter'></i>
             </a>
             <a

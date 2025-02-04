@@ -17,7 +17,7 @@ const SERVICE_DATA = [
     image: image1,
     title: 'Support a student',
     text: 'Start Donating',
-    link: '/students-need-sponsorship',
+    link: '/students/need-sponsorship',
   },
   {
     extraClassName: 'background-primary',
