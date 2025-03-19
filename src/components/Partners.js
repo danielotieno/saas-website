@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import kilquade from '../assets/images/pari.png';
 import cavan from '../assets/images/cavan.png';
 import avalon from '../assets/images/avolon.png';
+import phoenix from '../assets/images/phoenix.png';
 
 const Partners = ({ extraClass }) => {
   const brandCarouselOptions = {
@@ -53,6 +54,14 @@ const Partners = ({ extraClass }) => {
             </SwiperSlide>
             <SwiperSlide>
               <a
+                href='https://www.phoenix-law.org/'
+                target='_blank'
+                rel='noopener noreferrer'>
+                <img src={phoenix} alt='Phoenix Logo' />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a
                 href='http://www.cavancoco.ie/home.htm'
                 target='_blank'
                 rel='noopener noreferrer'>
@@ -73,6 +82,14 @@ const Partners = ({ extraClass }) => {
                 target='_blank'
                 rel='noopener noreferrer'>
                 <img src={kilquade} alt='Kilquade Logo' />
+              </a>
+            </SwiperSlide>
+            <SwiperSlide>
+              <a
+                href='https://www.phoenix-law.org/'
+                target='_blank'
+                rel='noopener noreferrer'>
+                <img src={phoenix} alt='Phoenix Logo' />
               </a>
             </SwiperSlide>
             <SwiperSlide>
